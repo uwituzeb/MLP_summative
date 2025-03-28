@@ -3,8 +3,9 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 import joblib
+import os
 
-def preprocess_data(df, is_train=True, scaler_path='../models/scaler.pkl', encoder_path='../models/label_encoder.pkl'):
+def preprocess_data(df, is_train=True, scaler_path='./models/scaler.pkl', encoder_path='./models/label_encoder.pkl'):
 
     # Split features and target
     X = df.drop('Recommended_Career', axis=1) if 'Recommended_Career' in df.columns else df
@@ -31,20 +32,26 @@ def preprocess_data(df, is_train=True, scaler_path='../models/scaler.pkl', encod
         y_val_encoded = le.transform(y_val)
         y_test_encoded = le.transform(y_test)
 
-        # Conveert to categorical
-        y_train_categorical = tf.keras.utils.to_categorical(y_train_encoded)
-        y_val_categorical = tf.keras.utils.to_categorical(y_val_encoded)
-        y_test_categorical = tf.keras.utils.to_categorical(y_test_encoded)
+        # # Conveert to categorical
+        # y_train_categorical = tf.keras.utils.to_categorical(y_train_encoded)
+        # y_val_categorical = tf.keras.utils.to_categorical(y_val_encoded)
+        # y_test_categorical = tf.keras.utils.to_categorical(y_test_encoded)
 
         joblib.dump(scaler, scaler_path)
         joblib.dump(le, encoder_path)
 
         return (x_train_scaled, x_val_scaled, x_test_scaled, 
-                y_train_categorical, y_val_categorical, y_test_categorical,
+                y_train_encoded, y_val_encoded, y_test_encoded,
                 x_train.columns)
     else:
         # Load saved preprocessors
         scaler = joblib.load(scaler_path)
-        le = joblib.load(encoder_path)
+        # Ensure input has same columns as training data
+        X = pd.get_dummies(X, columns=[col for col in categorical_cols if col in X.columns])
+        training_columns = joblib.load(scaler_path + '.columns') if os.path.exists(scaler_path + '.columns') else X.columns
+        for col in training_columns:
+            if col not in X.columns:
+                X[col] = 0
+        X = X[training_columns]
         X_scaled = scaler.transform(X)
-        return X_scaled, le
+        return X_scaled
