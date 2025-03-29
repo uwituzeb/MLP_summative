@@ -16,8 +16,7 @@ class CareerRecommendationModel:
         )
 
     def train(self, X_train, y_train):
-        y_train_encoded = np.argmax(y_train, axis=1)
-        self.model.fit(X_train, y_train_encoded)
+        self.model.fit(X_train, y_train)
 
     def evaluate(self, X, y):
         y_encoded = np.argmax(y, axis=1)
