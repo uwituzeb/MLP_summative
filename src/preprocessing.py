@@ -5,10 +5,10 @@ import tensorflow as tf
 import joblib
 import os
 
-def preprocess_data(df, is_train=True, scaler_path='./models/scaler.pkl', encoder_path='./models/label_encoder.pkl'):
+def preprocess_data(df, is_train=True, scaler_path='./models/scaler.pkl', encoder_path='./models/label_encoder.pkl', column_path='./models/scaler.pkl.columns'):
 
     # Split features and target
-    X = df.drop('Recommended_Career', axis=1) if 'Recommended_Career' in df.columns else df
+    X = df.drop(['Recommended_Career', 'Age', 'CandidateID'], axis=1, errors="ignore") if 'Recommended_Career' in df.columns else df
     y = df['Recommended_Career'] if 'Recommended_Career' in df.columns else None
 
     # Encode target
@@ -44,14 +44,21 @@ def preprocess_data(df, is_train=True, scaler_path='./models/scaler.pkl', encode
                 y_train_encoded, y_val_encoded, y_test_encoded,
                 x_train.columns)
     else:
-        # Load saved preprocessors
         scaler = joblib.load(scaler_path)
-        # Ensure input has same columns as training data
+        if not os.path.exists(column_path):
+            raise FileNotFoundError(f"Columns file not found at {column_path}")
+        training_columns = joblib.load(column_path)
         X = pd.get_dummies(X, columns=[col for col in categorical_cols if col in X.columns])
-        training_columns = joblib.load(scaler_path + '.columns') if os.path.exists(scaler_path + '.columns') else X.columns
-        for col in training_columns:
-            if col not in X.columns:
-                X[col] = 0
-        X = X[training_columns]
-        X_scaled = scaler.transform(X)
+        
+        # Align prediction data with training columns, filling missing with 0
+        X_aligned = pd.DataFrame(0, index=X.index, columns=training_columns)
+        for col in X.columns:
+            if col in training_columns:
+                X_aligned[col] = X[col].fillna(0)  # Fill NaN in input with 0
+        
+        # Check for NaN before scaling
+        if X_aligned.isna().any().any():
+            raise ValueError(f"NaN values found in X_aligned after alignment: {X_aligned.isna().sum()}")
+
+        X_scaled = scaler.transform(X_aligned)
         return X_scaled

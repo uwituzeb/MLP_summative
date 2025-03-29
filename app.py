@@ -1,3 +1,4 @@
+from typing import Optional
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -14,8 +15,8 @@ import shutil
 
 app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
-UPLOAD_FOLDER = '../data/uploads'
-STATIC_FOLDER = '../data/static'
+UPLOAD_FOLDER = './data/uploads'
+STATIC_FOLDER = './data/static'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(STATIC_FOLDER, exist_ok=True)
 
@@ -25,6 +26,9 @@ class PredictionInput(BaseModel):
     Favorite_Subject: str
     Extracurriculars: str
     Personality_Trait: str
+    Age: Optional[int] = None
+    CandidateID: Optional[str] = None
+
 
 @app.post("/predict")
 async def predict(data: PredictionInput):
@@ -35,6 +39,7 @@ async def predict(data: PredictionInput):
 
 @app.post("/upload")
 async def upload_file(file: UploadFile = File(...)):
+    print(f"UPLOAD_FOLDER absolute path: {os.path.abspath(UPLOAD_FOLDER)}")
     file_path = os.path.join(UPLOAD_FOLDER, file.filename)
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)

@@ -1,0 +1,1001 @@
+CandidateID,Age,Education,GPA,Interest,Favorite_Subject,Extracurriculars,Personality_Trait,Recommended_Career
+1,16,O-Level,3.51,Business,Economics,Drama Club,Analytical,Financial Analyst
+2,17,A-Level,3.52,Humanities,History,Environmental Club,Leader,Lawyer
+3,16,O-Level,2.85,Business,Physical Education,Debate Team,Leader,Business Manager
+4,17,A-Level,3.53,Humanities,History,Math Team,Analytical,Software Engineer
+5,14,O-Level,3.0,Humanities,English,Math Team,Social,Journalist
+6,18,A-Level,3.53,Humanities,History,Yearbook Committee,Social,Journalist
+7,18,A-Level,2.0,Arts,Music,Student Council,Leader,Teacher
+8,16,O-Level,2.49,STEM,Mathematics,Band/Orchestra,Social,Teacher
+9,14,O-Level,2.03,STEM,Mathematics,Sports Team,Analytical,Financial Analyst
+10,13,O-Level,2.0,Humanities,English,Sports Team,Leader,Lawyer
+11,13,O-Level,2.44,STEM,Computer Science,Yearbook Committee,Investigative,Research Scientist
+12,16,O-Level,3.77,Arts,Music,Band/Orchestra,Creative,Musician
+13,13,O-Level,2.2,Arts,Art,Robotics Club,Creative,Artist
+14,19,A-Level,3.16,STEM,Computer Science,Sports Team,Analytical,Research Scientist
+15,16,O-Level,3.7,Arts,Music,Debate Team,Organizer,Business Manager
+16,16,O-Level,3.53,Arts,Art,Science Club,Investigative,Doctor
+17,17,A-Level,2.8,STEM,Computer Science,Environmental Club,Analytical,Research Scientist
+18,17,A-Level,2.25,Humanities,Psychology,Art Club,Social,Marketing Specialist
+19,17,A-Level,2.8,Humanities,Geography,Sports Team,Investigative,Doctor
+20,18,A-Level,3.46,Humanities,Geography,Debate Team,Enterprising,Lawyer
+21,15,O-Level,2.55,STEM,Biology,Yearbook Committee,Helper,Nurse
+22,19,A-Level,2.96,Humanities,English,Community Service,Helper,Teacher
+23,18,A-Level,2.38,Humanities,Psychology,Art Club,Leader,Marketing Specialist
+24,13,O-Level,3.76,Humanities,History,Environmental Club,Leader,Lawyer
+25,16,O-Level,3.07,Humanities,English,Coding Club,Leader,Teacher
+26,14,O-Level,2.77,Business,Foreign Language,Band/Orchestra,Social,Teacher
+27,18,A-Level,2.49,STEM,Physics,Art Club,Creative,Architect
+28,14,O-Level,2.95,Humanities,Psychology,Sports Team,Social,Psychologist
+29,19,A-Level,3.17,STEM,Biology,Science Club,Analytical,Research Scientist
+30,18,A-Level,3.49,Humanities,Geography,Debate Team,Leader,Business Manager
+31,15,O-Level,3.29,Arts,Music,Environmental Club,Social,Teacher
+32,16,O-Level,3.16,STEM,Chemistry,Art Club,Creative,Graphic Designer
+33,19,A-Level,3.3,Arts,Music,Chess Club,Creative,Musician
+34,16,O-Level,3.81,Arts,Art,Student Council,Social,Teacher
+35,16,O-Level,3.31,Humanities,Psychology,Drama Club,Social,Psychologist
+36,18,A-Level,2.42,Arts,Art,Language Club,Helper,Teacher
+37,13,O-Level,2.55,Health,Physical Education,Band/Orchestra,Social,Teacher
+38,15,O-Level,2.8,Humanities,English,Art Club,Leader,Teacher
+39,14,O-Level,2.9,STEM,Computer Science,Dance Team,Investigative,Research Scientist
+40,14,O-Level,2.82,Humanities,Geography,Community Service,Leader,Teacher
+41,18,A-Level,2.62,Business,Economics,Coding Club,Leader,Business Manager
+42,15,O-Level,3.35,Humanities,Geography,Drama Club,Creative,Artist
+43,19,A-Level,2.0,STEM,Biology,Art Club,Creative,Architect
+44,16,O-Level,2.87,Humanities,Psychology,Yearbook Committee,Leader,Marketing Specialist
+45,19,A-Level,2.16,STEM,Foreign Language,Chess Club,Social,Psychologist
+46,16,O-Level,3.45,Humanities,Geography,Chess Club,Enterprising,Marketing Specialist
+47,18,A-Level,3.0,Humanities,English,Dance Team,Social,Teacher
+48,17,A-Level,3.1,Humanities,Psychology,Student Council,Social,Psychologist
+49,18,A-Level,2.33,STEM,Chemistry,Student Council,Leader,Teacher
+50,16,O-Level,2.73,Humanities,Psychology,Science Club,Investigative,Environmental Scientist
+51,15,O-Level,2.82,STEM,Computer Science,Coding Club,Investigative,Research Scientist
+52,15,O-Level,2.44,STEM,Mathematics,Community Service,Analytical,Engineer
+53,19,A-Level,2.55,Arts,Physical Education,Band/Orchestra,Leader,Teacher
+54,15,O-Level,3.37,STEM,Physical Education,Dance Team,Social,Journalist
+55,17,A-Level,3.27,STEM,Computer Science,Language Club,Enterprising,Marketing Specialist
+56,19,A-Level,2.79,STEM,Chemistry,Environmental Club,Investigative,Environmental Scientist
+57,17,A-Level,3.58,Arts,Music,Yearbook Committee,Creative,Musician
+58,14,O-Level,2.68,Humanities,English,Sports Team,Social,Teacher
+59,18,A-Level,3.15,STEM,Computer Science,Art Club,Investigative,Research Scientist
+60,15,O-Level,3.23,Humanities,Social Studies,Language Club,Social,Marketing Specialist
+61,17,A-Level,3.37,Arts,Art,Language Club,Social,Journalist
+62,14,O-Level,2.69,Humanities,Psychology,Debate Team,Helper,Psychologist
+63,18,A-Level,3.13,STEM,Computer Science,Math Team,Analytical,Software Engineer
+64,16,O-Level,2.0,STEM,Biology,Science Club,Analytical,Environmental Scientist
+65,17,A-Level,4.0,STEM,Mathematics,Debate Team,Organizer,Business Manager
+66,19,A-Level,2.98,STEM,Biology,Science Club,Investigative,Doctor
+67,13,O-Level,3.34,Business,Physical Education,Yearbook Committee,Social,Journalist
+68,18,A-Level,3.66,STEM,Computer Science,Language Club,Enterprising,Marketing Specialist
+69,14,O-Level,2.59,Arts,Art,Drama Club,Creative,Artist
+70,18,A-Level,2.8,Humanities,English,Environmental Club,Enterprising,Lawyer
+71,19,A-Level,2.35,Arts,Art,Art Club,Creative,Graphic Designer
+72,18,A-Level,3.74,Arts,Art,Drama Club,Social,Journalist
+73,18,A-Level,3.5,Health,Foreign Language,Community Service,Social,Psychologist
+74,15,O-Level,2.67,Humanities,Geography,Sports Team,Creative,Chef
+75,15,O-Level,3.17,Humanities,English,Community Service,Helper,Teacher
+76,15,O-Level,3.9,STEM,Mathematics,Debate Team,Social,Journalist
+77,15,O-Level,2.35,STEM,Computer Science,Dance Team,Analytical,Research Scientist
+78,19,A-Level,2.86,Humanities,Geography,Robotics Club,Analytical,Software Engineer
+79,19,A-Level,2.95,STEM,Computer Science,Sports Team,Analytical,Research Scientist
+80,14,O-Level,3.29,Humanities,History,Community Service,Helper,Teacher
+81,14,O-Level,3.06,Business,Foreign Language,Yearbook Committee,Social,Journalist
+82,13,O-Level,3.46,Humanities,History,Sports Team,Social,Journalist
+83,18,A-Level,3.56,Business,Foreign Language,Art Club,Creative,Graphic Designer
+84,14,O-Level,3.83,STEM,Chemistry,Robotics Club,Analytical,Software Engineer
+85,16,O-Level,3.35,Arts,Music,Language Club,Helper,Teacher
+86,14,O-Level,2.98,Humanities,English,Debate Team,Helper,Journalist
+87,17,A-Level,2.86,STEM,Mathematics,Drama Club,Analytical,Engineer
+88,15,O-Level,3.2,STEM,Chemistry,Language Club,Enterprising,Marketing Specialist
+89,14,O-Level,3.42,STEM,Biology,Chess Club,Helper,Veterinarian
+90,14,O-Level,2.37,Humanities,English,Community Service,Helper,Teacher
+91,15,O-Level,3.32,Humanities,Geography,Student Council,Organizer,Business Manager
+92,19,A-Level,2.81,Business,Economics,Chess Club,Analytical,Financial Analyst
+93,19,A-Level,3.58,Humanities,History,Math Team,Social,Journalist
+94,14,O-Level,2.62,STEM,Physics,Art Club,Investigative,Architect
+95,13,O-Level,2.91,Business,Economics,Sports Team,Enterprising,Business Manager
+96,14,O-Level,3.81,Humanities,Foreign Language,Student Council,Helper,Teacher
+97,17,A-Level,3.79,Humanities,Physical Education,Band/Orchestra,Social,Teacher
+98,15,O-Level,3.29,STEM,Chemistry,Student Council,Social,Teacher
+99,15,O-Level,3.12,Humanities,Geography,Robotics Club,Analytical,Software Engineer
+100,13,O-Level,3.38,Humanities,Psychology,Band/Orchestra,Leader,Marketing Specialist
+101,18,A-Level,3.8,Humanities,History,Environmental Club,Leader,Lawyer
+102,19,A-Level,3.37,STEM,Computer Science,Science Club,Investigative,Research Scientist
+103,13,O-Level,2.41,STEM,Mathematics,Dance Team,Analytical,Engineer
+104,19,A-Level,3.09,STEM,Biology,Sports Team,Helper,Veterinarian
+105,13,O-Level,2.57,STEM,Physical Education,Environmental Club,Analytical,Research Scientist
+106,18,A-Level,2.31,STEM,Chemistry,Science Club,Analytical,Research Scientist
+107,14,O-Level,3.25,Humanities,English,Coding Club,Investigative,Research Scientist
+108,13,O-Level,3.0,Business,Foreign Language,Yearbook Committee,Social,Journalist
+109,13,O-Level,3.15,Humanities,Geography,Language Club,Social,Marketing Specialist
+110,18,A-Level,3.06,Humanities,Geography,Band/Orchestra,Leader,Teacher
+111,15,O-Level,3.11,Health,Foreign Language,Language Club,Social,Marketing Specialist
+112,14,O-Level,2.93,STEM,Biology,Chess Club,Investigative,Environmental Scientist
+113,19,A-Level,2.44,STEM,Computer Science,Coding Club,Investigative,Research Scientist
+114,19,A-Level,3.47,STEM,Physical Education,Yearbook Committee,Creative,Graphic Designer
+115,19,A-Level,2.39,Arts,Music,Sports Team,Helper,Teacher
+116,18,A-Level,3.62,Arts,Art,Yearbook Committee,Creative,Graphic Designer
+117,19,A-Level,3.4,Arts,Art,Chess Club,Creative,Artist
+118,16,O-Level,2.0,STEM,Physical Education,Environmental Club,Creative,Architect
+119,18,A-Level,2.91,STEM,Biology,Student Council,Enterprising,Business Manager
+120,14,O-Level,2.69,Humanities,Psychology,Student Council,Helper,Psychologist
+121,16,O-Level,2.99,STEM,Physics,Science Club,Analytical,Research Scientist
+122,18,A-Level,3.06,Humanities,Geography,Art Club,Creative,Artist
+123,14,O-Level,3.17,Arts,Music,Math Team,Analytical,Engineer
+124,18,A-Level,2.68,Humanities,Geography,Math Team,Organizer,Financial Analyst
+125,15,O-Level,2.75,Arts,Art,Community Service,Helper,Psychologist
+126,13,O-Level,4.0,Humanities,Psychology,Art Club,Enterprising,Marketing Specialist
+127,18,A-Level,3.25,STEM,Biology,Robotics Club,Analytical,Engineer
+128,17,A-Level,2.87,STEM,Biology,Science Club,Helper,Environmental Scientist
+129,14,O-Level,2.68,STEM,Physics,Sports Team,Investigative,Research Scientist
+130,17,A-Level,2.24,STEM,Foreign Language,Community Service,Social,Psychologist
+131,18,A-Level,2.87,Humanities,Geography,Community Service,Leader,Teacher
+132,19,A-Level,3.11,STEM,Chemistry,Yearbook Committee,Investigative,Environmental Scientist
+133,14,O-Level,2.9,Arts,Art,Language Club,Helper,Teacher
+134,17,A-Level,4.0,Humanities,English,Coding Club,Investigative,Research Scientist
+135,19,A-Level,2.2,Business,Foreign Language,Environmental Club,Conventional,Environmental Scientist
+136,17,A-Level,3.75,STEM,Physics,Yearbook Committee,Social,Journalist
+137,15,O-Level,3.51,Humanities,Geography,Language Club,Enterprising,Marketing Specialist
+138,18,A-Level,4.0,STEM,Mathematics,Robotics Club,Organizer,Software Engineer
+139,17,A-Level,2.48,STEM,Chemistry,Robotics Club,Analytical,Engineer
+140,14,O-Level,2.8,STEM,Physics,Environmental Club,Analytical,Research Scientist
+141,17,A-Level,2.79,Arts,Art,Chess Club,Creative,Graphic Designer
+142,16,O-Level,3.36,Humanities,English,Chess Club,Helper,Teacher
+143,15,O-Level,2.61,Humanities,Social Studies,Sports Team,Helper,Psychologist
+144,19,A-Level,2.92,STEM,Computer Science,Math Team,Investigative,Software Engineer
+145,18,A-Level,3.38,STEM,Biology,Environmental Club,Investigative,Doctor
+146,16,O-Level,2.25,Humanities,Psychology,Science Club,Social,Marketing Specialist
+147,13,O-Level,3.3,STEM,Foreign Language,Yearbook Committee,Creative,Graphic Designer
+148,15,O-Level,3.33,Humanities,Social Studies,Community Service,Helper,Nurse
+149,19,A-Level,3.52,Business,Economics,Sports Team,Analytical,Financial Analyst
+150,13,O-Level,3.3,STEM,Computer Science,Student Council,Helper,Teacher
+151,15,O-Level,2.36,Arts,Art,Sports Team,Creative,Graphic Designer
+152,18,A-Level,2.77,Health,Foreign Language,Yearbook Committee,Social,Journalist
+153,14,O-Level,3.78,Humanities,History,Robotics Club,Social,Teacher
+154,14,O-Level,3.21,Humanities,English,Math Team,Organizer,Financial Analyst
+155,17,A-Level,2.95,Humanities,History,Art Club,Creative,Artist
+156,17,A-Level,3.08,Humanities,History,Chess Club,Helper,Teacher
+157,17,A-Level,3.09,STEM,Physics,Dance Team,Creative,Architect
+158,17,A-Level,2.62,Arts,Music,Sports Team,Leader,Teacher
+159,15,O-Level,2.77,Business,Economics,Community Service,Leader,Business Manager
+160,13,O-Level,3.5,Arts,Physical Education,Community Service,Helper,Teacher
+161,14,O-Level,2.01,Humanities,English,Coding Club,Social,Journalist
+162,19,A-Level,3.18,STEM,Computer Science,Drama Club,Investigative,Research Scientist
+163,17,A-Level,3.66,STEM,Chemistry,Language Club,Analytical,Research Scientist
+164,14,O-Level,3.26,STEM,Physical Education,Coding Club,Analytical,Software Engineer
+165,18,A-Level,3.09,STEM,Mathematics,Sports Team,Analytical,Engineer
+166,13,O-Level,2.81,Humanities,English,Science Club,Helper,Teacher
+167,16,O-Level,3.39,STEM,Mathematics,Environmental Club,Analytical,Financial Analyst
+168,17,A-Level,3.5,STEM,Physics,Band/Orchestra,Helper,Teacher
+169,17,A-Level,3.9,Humanities,Geography,Chess Club,Analytical,Financial Analyst
+170,17,A-Level,2.33,Humanities,Social Studies,Student Council,Organizer,Business Manager
+171,13,O-Level,3.37,STEM,Computer Science,Band/Orchestra,Social,Teacher
+172,13,O-Level,3.09,Humanities,Geography,Debate Team,Leader,Business Manager
+173,18,A-Level,3.37,STEM,Computer Science,Coding Club,Analytical,Software Engineer
+174,15,O-Level,2.61,Humanities,Psychology,Yearbook Committee,Leader,Marketing Specialist
+175,17,A-Level,2.7,Humanities,Foreign Language,Science Club,Investigative,Environmental Scientist
+176,17,A-Level,3.8,STEM,Biology,Drama Club,Helper,Veterinarian
+177,17,A-Level,2.11,Humanities,Social Studies,Debate Team,Leader,Lawyer
+178,17,A-Level,3.13,STEM,Computer Science,Environmental Club,Investigative,Research Scientist
+179,18,A-Level,2.71,STEM,Chemistry,Debate Team,Organizer,Business Manager
+180,15,O-Level,2.07,Health,Physical Education,Robotics Club,Analytical,Software Engineer
+181,19,A-Level,3.67,STEM,Mathematics,Art Club,Creative,Graphic Designer
+182,17,A-Level,3.27,STEM,Computer Science,Sports Team,Analytical,Research Scientist
+183,16,O-Level,2.68,Humanities,Physical Education,Chess Club,Creative,Architect
+184,18,A-Level,2.0,Arts,Music,Sports Team,Social,Teacher
+185,17,A-Level,3.29,STEM,Chemistry,Community Service,Helper,Psychologist
+186,15,O-Level,2.6,Humanities,Geography,Chess Club,Helper,Teacher
+187,17,A-Level,2.54,Arts,Art,Band/Orchestra,Creative,Architect
+188,18,A-Level,2.81,Business,Foreign Language,Chess Club,Artistic,Environmental Scientist
+189,14,O-Level,3.18,Humanities,English,Math Team,Social,Journalist
+190,14,O-Level,2.33,Humanities,English,Chess Club,Leader,Teacher
+191,16,O-Level,2.65,Humanities,History,Robotics Club,Social,Journalist
+192,14,O-Level,2.66,Business,Economics,Band/Orchestra,Creative,Musician
+193,14,O-Level,2.63,STEM,Mathematics,Art Club,Organizer,Accountant
+194,17,A-Level,3.07,STEM,Physics,Sports Team,Investigative,Research Scientist
+195,15,O-Level,2.61,STEM,Biology,Dance Team,Helper,Veterinarian
+196,18,A-Level,3.58,Humanities,Physical Education,Coding Club,Analytical,Research Scientist
+197,16,O-Level,2.29,STEM,Chemistry,Drama Club,Creative,Artist
+198,13,O-Level,2.6,Humanities,History,Debate Team,Social,Journalist
+199,14,O-Level,2.58,STEM,Foreign Language,Band/Orchestra,Leader,Teacher
+200,16,O-Level,3.37,Humanities,Psychology,Dance Team,Social,Marketing Specialist
+201,14,O-Level,3.23,Humanities,History,Yearbook Committee,Creative,Graphic Designer
+202,18,A-Level,3.23,Humanities,English,Yearbook Committee,Social,Journalist
+203,17,A-Level,3.7,STEM,Biology,Language Club,Investigative,Doctor
+204,14,O-Level,2.59,Arts,Art,Yearbook Committee,Social,Graphic Designer
+205,17,A-Level,3.3,Humanities,History,Student Council,Helper,Teacher
+206,16,O-Level,3.51,Humanities,History,Robotics Club,Helper,Teacher
+207,14,O-Level,3.38,Humanities,History,Robotics Club,Enterprising,Lawyer
+208,18,A-Level,3.4,Arts,Art,Chess Club,Creative,Architect
+209,16,O-Level,3.5,STEM,Biology,Science Club,Helper,Nurse
+210,16,O-Level,2.54,Humanities,History,Environmental Club,Enterprising,Lawyer
+211,14,O-Level,2.87,Humanities,Geography,Band/Orchestra,Social,Teacher
+212,15,O-Level,3.45,Humanities,English,Drama Club,Enterprising,Journalist
+213,13,O-Level,3.02,STEM,Biology,Language Club,Enterprising,Marketing Specialist
+214,13,O-Level,3.24,Arts,Art,Yearbook Committee,Social,Graphic Designer
+215,16,O-Level,2.63,Arts,Art,Yearbook Committee,Creative,Graphic Designer
+216,15,O-Level,2.72,Arts,Music,Chess Club,Leader,Teacher
+217,14,O-Level,2.79,Business,Economics,Student Council,Social,Teacher
+218,15,O-Level,2.84,Business,Foreign Language,Language Club,Social,Journalist
+219,14,O-Level,3.52,STEM,Physics,Debate Team,Investigative,Research Scientist
+220,13,O-Level,2.55,Humanities,Geography,Dance Team,Social,Teacher
+221,17,A-Level,2.78,Humanities,Social Studies,Dance Team,Helper,Teacher
+222,17,A-Level,2.92,Humanities,Physical Education,Dance Team,Social,Journalist
+223,13,O-Level,3.57,Arts,Music,Debate Team,Helper,Teacher
+224,17,A-Level,3.94,Business,Physical Education,Band/Orchestra,Creative,Musician
+225,13,O-Level,2.78,Business,Physical Education,Coding Club,Analytical,Software Engineer
+226,18,A-Level,2.71,Arts,Music,Robotics Club,Leader,Teacher
+227,13,O-Level,3.21,STEM,Biology,Community Service,Helper,Nurse
+228,18,A-Level,2.76,STEM,Computer Science,Drama Club,Social,Journalist
+229,13,O-Level,3.23,STEM,Biology,Robotics Club,Helper,Veterinarian
+230,16,O-Level,3.04,Humanities,Psychology,Math Team,Organizer,Financial Analyst
+231,15,O-Level,3.92,Humanities,Geography,Chess Club,Creative,Musician
+232,15,O-Level,3.28,Arts,Art,Community Service,Leader,Teacher
+233,17,A-Level,2.8,STEM,Mathematics,Science Club,Analytical,Research Scientist
+234,18,A-Level,3.18,Health,Foreign Language,Robotics Club,Analytical,Software Engineer
+235,15,O-Level,2.68,Arts,Art,Coding Club,Analytical,Research Scientist
+236,17,A-Level,2.9,Business,Foreign Language,Dance Team,Social,Psychologist
+237,18,A-Level,3.07,STEM,Computer Science,Band/Orchestra,Analytical,Software Engineer
+238,13,O-Level,3.44,Humanities,Geography,Science Club,Analytical,Research Scientist
+239,16,O-Level,3.29,STEM,Mathematics,Environmental Club,Organizer,Accountant
+240,13,O-Level,3.03,Arts,Physical Education,Band/Orchestra,Helper,Teacher
+241,15,O-Level,2.8,STEM,Computer Science,Environmental Club,Analytical,Software Engineer
+242,18,A-Level,3.28,Humanities,English,Environmental Club,Enterprising,Lawyer
+243,19,A-Level,3.64,STEM,Chemistry,Band/Orchestra,Leader,Teacher
+244,18,A-Level,2.44,Humanities,Geography,Dance Team,Analytical,Engineer
+245,16,O-Level,2.93,STEM,Chemistry,Language Club,Social,Teacher
+246,16,O-Level,2.93,Business,Economics,Community Service,Social,Teacher
+247,19,A-Level,2.85,Arts,Art,Robotics Club,Creative,Architect
+248,17,A-Level,2.93,STEM,Mathematics,Band/Orchestra,Organizer,Financial Analyst
+249,19,A-Level,2.98,Humanities,Social Studies,Coding Club,Analytical,Software Engineer
+250,15,O-Level,2.7,Humanities,Psychology,Debate Team,Social,Marketing Specialist
+251,18,A-Level,2.59,Arts,Art,Drama Club,Social,Journalist
+252,14,O-Level,2.68,Arts,Music,Science Club,Leader,Teacher
+253,18,A-Level,2.77,STEM,Mathematics,Art Club,Creative,Graphic Designer
+254,16,O-Level,2.31,Humanities,Social Studies,Sports Team,Investigative,Doctor
+255,19,A-Level,2.69,STEM,Computer Science,Band/Orchestra,Investigative,Research Scientist
+256,14,O-Level,2.96,STEM,Biology,Coding Club,Analytical,Software Engineer
+257,13,O-Level,2.0,Humanities,Geography,Debate Team,Enterprising,Lawyer
+258,14,O-Level,3.74,Humanities,English,Dance Team,Social,Teacher
+259,14,O-Level,2.77,Business,Economics,Science Club,Investigative,Environmental Scientist
+260,14,O-Level,2.78,STEM,Physics,Student Council,Enterprising,Lawyer
+261,18,A-Level,3.87,Humanities,Psychology,Science Club,Analytical,Research Scientist
+262,13,O-Level,2.0,Humanities,Physical Education,Math Team,Organizer,Financial Analyst
+263,13,O-Level,3.74,Arts,Art,Robotics Club,Analytical,Software Engineer
+264,18,A-Level,3.42,Humanities,Social Studies,Band/Orchestra,Helper,Teacher
+265,14,O-Level,2.87,STEM,Computer Science,Art Club,Investigative,Research Scientist
+266,19,A-Level,2.57,Humanities,Geography,Science Club,Investigative,Doctor
+267,14,O-Level,2.61,STEM,Computer Science,Science Club,Analytical,Research Scientist
+268,14,O-Level,3.02,Arts,Art,Coding Club,Investigative,Research Scientist
+269,15,O-Level,3.66,STEM,Chemistry,Robotics Club,Investigative,Doctor
+270,14,O-Level,3.31,STEM,Biology,Robotics Club,Investigative,Environmental Scientist
+271,17,A-Level,2.73,Humanities,Geography,Student Council,Helper,Teacher
+272,16,O-Level,3.28,Humanities,Social Studies,Student Council,Leader,Teacher
+273,13,O-Level,3.14,STEM,Biology,Community Service,Investigative,Doctor
+274,18,A-Level,2.62,Arts,Music,Language Club,Social,Teacher
+275,15,O-Level,2.31,Humanities,Psychology,Band/Orchestra,Leader,Teacher
+276,17,A-Level,2.0,STEM,Chemistry,Math Team,Investigative,Doctor
+277,16,O-Level,2.73,STEM,Computer Science,Language Club,Investigative,Research Scientist
+278,14,O-Level,3.14,STEM,Chemistry,Art Club,Creative,Artist
+279,14,O-Level,2.55,Humanities,Foreign Language,Environmental Club,Investigative,Doctor
+280,13,O-Level,3.27,STEM,Biology,Dance Team,Helper,Veterinarian
+281,16,O-Level,2.85,Humanities,Geography,Drama Club,Social,Journalist
+282,17,A-Level,3.33,Arts,Music,Chess Club,Creative,Musician
+283,19,A-Level,2.34,Health,Foreign Language,Science Club,Investigative,Environmental Scientist
+284,13,O-Level,3.55,Business,Economics,Robotics Club,Enterprising,Business Manager
+285,16,O-Level,2.76,Arts,Music,Community Service,Leader,Teacher
+286,17,A-Level,2.27,STEM,Chemistry,Dance Team,Investigative,Doctor
+287,15,O-Level,2.74,STEM,Physics,Community Service,Helper,Psychologist
+288,19,A-Level,2.95,Humanities,English,Sports Team,Helper,Teacher
+289,18,A-Level,3.72,Humanities,Social Studies,Dance Team,Creative,Architect
+290,17,A-Level,2.17,Humanities,Geography,Environmental Club,Enterprising,Business Manager
+291,19,A-Level,3.35,Humanities,Geography,Drama Club,Social,Journalist
+292,13,O-Level,3.55,Arts,Music,Science Club,Social,Teacher
+293,15,O-Level,4.0,Humanities,Geography,Student Council,Leader,Business Manager
+294,19,A-Level,3.92,STEM,Chemistry,Debate Team,Leader,Lawyer
+295,16,O-Level,3.45,Arts,Art,Robotics Club,Creative,Architect
+296,17,A-Level,2.59,Humanities,Geography,Band/Orchestra,Leader,Teacher
+297,15,O-Level,2.91,Arts,Music,Robotics Club,Helper,Teacher
+298,13,O-Level,2.26,Arts,Music,Debate Team,Social,Teacher
+299,19,A-Level,2.6,STEM,Computer Science,Student Council,Helper,Teacher
+300,13,O-Level,2.44,Arts,Foreign Language,Coding Club,Analytical,Software Engineer
+301,14,O-Level,3.81,Humanities,History,Yearbook Committee,Enterprising,Journalist
+302,18,A-Level,2.32,Humanities,History,Yearbook Committee,Social,Journalist
+303,17,A-Level,2.69,STEM,Physics,Drama Club,Investigative,Research Scientist
+304,14,O-Level,2.93,Arts,Art,Yearbook Committee,Creative,Graphic Designer
+305,14,O-Level,3.16,STEM,Computer Science,Chess Club,Analytical,Software Engineer
+306,13,O-Level,3.87,Humanities,Physical Education,Debate Team,Organizer,Business Manager
+307,14,O-Level,3.08,STEM,Biology,Chess Club,Investigative,Environmental Scientist
+308,19,A-Level,3.74,Business,Foreign Language,Community Service,Social,Psychologist
+309,17,A-Level,3.49,Humanities,History,Language Club,Enterprising,Journalist
+310,14,O-Level,2.19,STEM,Chemistry,Community Service,Social,Teacher
+311,17,A-Level,3.28,Humanities,Geography,Sports Team,Enterprising,Lawyer
+312,16,O-Level,3.18,Humanities,Social Studies,Coding Club,Analytical,Software Engineer
+313,17,A-Level,2.99,Humanities,Geography,Coding Club,Analytical,Research Scientist
+314,18,A-Level,3.27,STEM,Biology,Chess Club,Investigative,Environmental Scientist
+315,17,A-Level,2.85,STEM,Biology,Math Team,Helper,Veterinarian
+316,18,A-Level,2.28,Health,Foreign Language,Math Team,Organizer,Financial Analyst
+317,15,O-Level,2.84,Arts,Art,Debate Team,Social,Journalist
+318,17,A-Level,3.13,Humanities,Social Studies,Dance Team,Conventional,Marketing Specialist
+319,16,O-Level,3.28,Humanities,English,Robotics Club,Helper,Teacher
+320,13,O-Level,4.0,STEM,Foreign Language,Robotics Club,Analytical,Software Engineer
+321,17,A-Level,3.33,STEM,Chemistry,Student Council,Social,Teacher
+322,19,A-Level,2.77,Humanities,Foreign Language,Debate Team,Social,Journalist
+323,14,O-Level,3.46,Arts,Art,Math Team,Creative,Artist
+324,14,O-Level,3.39,Arts,Music,Art Club,Leader,Teacher
+325,13,O-Level,3.08,Health,Foreign Language,Science Club,Analytical,Research Scientist
+326,18,A-Level,2.92,Humanities,Geography,Coding Club,Analytical,Research Scientist
+327,19,A-Level,3.25,Business,Foreign Language,Sports Team,Social,Teacher
+328,15,O-Level,3.04,STEM,Biology,Chess Club,Helper,Veterinarian
+329,19,A-Level,2.65,Humanities,History,Yearbook Committee,Leader,Journalist
+330,16,O-Level,3.13,Health,Foreign Language,Drama Club,Creative,Musician
+331,13,O-Level,2.45,STEM,Physical Education,Art Club,Creative,Graphic Designer
+332,16,O-Level,2.31,Humanities,History,Dance Team,Social,Journalist
+333,18,A-Level,3.32,Business,Economics,Sports Team,Enterprising,Business Manager
+334,16,O-Level,3.14,STEM,Computer Science,Chess Club,Investigative,Research Scientist
+335,15,O-Level,2.18,Humanities,Social Studies,Language Club,Enterprising,Marketing Specialist
+336,17,A-Level,2.61,Health,Physical Education,Student Council,Leader,Lawyer
+337,15,O-Level,2.95,Humanities,Psychology,Community Service,Social,Psychologist
+338,15,O-Level,3.37,STEM,Computer Science,Art Club,Analytical,Research Scientist
+339,18,A-Level,2.93,Arts,Music,Yearbook Committee,Helper,Teacher
+340,18,A-Level,3.09,Business,Physical Education,Band/Orchestra,Helper,Teacher
+341,17,A-Level,3.24,STEM,Mathematics,Debate Team,Analytical,Software Engineer
+342,16,O-Level,2.61,STEM,Biology,Science Club,Investigative,Environmental Scientist
+343,14,O-Level,3.99,Business,Foreign Language,Robotics Club,Analytical,Engineer
+344,13,O-Level,3.49,Arts,Music,Math Team,Analytical,Financial Analyst
+345,18,A-Level,2.52,Humanities,Social Studies,Band/Orchestra,Creative,Musician
+346,13,O-Level,3.85,Humanities,Psychology,Chess Club,Enterprising,Marketing Specialist
+347,13,O-Level,3.84,Arts,Foreign Language,Drama Club,Social,Journalist
+348,18,A-Level,3.09,Humanities,Social Studies,Math Team,Organizer,Financial Analyst
+349,19,A-Level,2.82,Humanities,History,Environmental Club,Social,Teacher
+350,19,A-Level,2.69,STEM,Biology,Art Club,Creative,Artist
+351,16,O-Level,3.0,Humanities,English,Student Council,Organizer,Teacher
+352,14,O-Level,2.85,Humanities,Geography,Math Team,Organizer,Financial Analyst
+353,17,A-Level,2.36,Humanities,History,Drama Club,Enterprising,Journalist
+354,13,O-Level,3.29,STEM,Chemistry,Community Service,Leader,Teacher
+355,16,O-Level,3.84,STEM,Foreign Language,Art Club,Creative,Graphic Designer
+356,13,O-Level,2.95,Arts,Music,Art Club,Helper,Teacher
+357,16,O-Level,2.85,STEM,Chemistry,Debate Team,Analytical,Research Scientist
+358,15,O-Level,2.96,STEM,Chemistry,Environmental Club,Investigative,Environmental Scientist
+359,13,O-Level,3.58,Arts,Art,Dance Team,Creative,Artist
+360,16,O-Level,3.21,Humanities,Psychology,Math Team,Social,Psychologist
+361,13,O-Level,3.03,Humanities,History,Dance Team,Leader,Teacher
+362,15,O-Level,3.48,STEM,Physical Education,Robotics Club,Analytical,Engineer
+363,15,O-Level,2.82,Arts,Art,Environmental Club,Creative,Artist
+364,19,A-Level,3.78,Business,Economics,Robotics Club,Analytical,Financial Analyst
+365,17,A-Level,2.65,STEM,Mathematics,Yearbook Committee,Creative,Graphic Designer
+366,18,A-Level,3.7,Humanities,History,Science Club,Enterprising,Lawyer
+367,16,O-Level,2.0,STEM,Biology,Language Club,Enterprising,Marketing Specialist
+368,14,O-Level,2.53,STEM,Mathematics,Band/Orchestra,Analytical,Financial Analyst
+369,17,A-Level,3.67,STEM,Physics,Dance Team,Creative,Architect
+370,19,A-Level,3.42,Arts,Art,Robotics Club,Creative,Architect
+371,19,A-Level,2.91,Business,Economics,Language Club,Analytical,Financial Analyst
+372,15,O-Level,3.44,STEM,Mathematics,Environmental Club,Analytical,Engineer
+373,13,O-Level,2.51,STEM,Physics,Language Club,Social,Marketing Specialist
+374,14,O-Level,2.88,STEM,Foreign Language,Sports Team,Creative,Artist
+375,16,O-Level,2.66,Health,Physical Education,Debate Team,Enterprising,Lawyer
+376,14,O-Level,2.45,Business,Foreign Language,Chess Club,Analytical,Software Engineer
+377,15,O-Level,3.38,Humanities,Psychology,Science Club,Investigative,Environmental Scientist
+378,14,O-Level,2.93,Humanities,Psychology,Math Team,Analytical,Engineer
+379,16,O-Level,4.0,Arts,Music,Sports Team,Creative,Musician
+380,16,O-Level,3.57,Humanities,English,Yearbook Committee,Helper,Journalist
+381,18,A-Level,2.77,Arts,Music,Chess Club,Helper,Teacher
+382,19,A-Level,2.95,STEM,Mathematics,Drama Club,Organizer,Accountant
+383,13,O-Level,2.8,STEM,Computer Science,Chess Club,Investigative,Research Scientist
+384,18,A-Level,2.63,Humanities,English,Drama Club,Social,Journalist
+385,17,A-Level,2.84,STEM,Mathematics,Chess Club,Analytical,Financial Analyst
+386,17,A-Level,2.16,Humanities,History,Drama Club,Creative,Artist
+387,13,O-Level,3.22,STEM,Mathematics,Debate Team,Leader,Lawyer
+388,18,A-Level,2.65,Humanities,Physical Education,Robotics Club,Analytical,Engineer
+389,14,O-Level,2.07,STEM,Chemistry,Art Club,Investigative,Research Scientist
+390,16,O-Level,2.14,STEM,Physics,Drama Club,Social,Journalist
+391,17,A-Level,3.11,STEM,Chemistry,Dance Team,Analytical,Research Scientist
+392,15,O-Level,2.9,Humanities,History,Debate Team,Organizer,Lawyer
+393,13,O-Level,3.56,Arts,Art,Science Club,Investigative,Research Scientist
+394,19,A-Level,2.9,Business,Economics,Sports Team,Enterprising,Business Manager
+395,15,O-Level,3.08,STEM,Mathematics,Band/Orchestra,Analytical,Software Engineer
+396,18,A-Level,3.54,Humanities,Psychology,Dance Team,Enterprising,Marketing Specialist
+397,14,O-Level,3.71,Arts,Physical Education,Student Council,Leader,Teacher
+398,14,O-Level,3.04,Humanities,History,Art Club,Helper,Teacher
+399,13,O-Level,3.44,STEM,Biology,Student Council,Investigative,Doctor
+400,14,O-Level,3.59,Business,Economics,Debate Team,Enterprising,Business Manager
+401,13,O-Level,3.18,Humanities,Social Studies,Sports Team,Social,Marketing Specialist
+402,16,O-Level,2.52,STEM,Physics,Environmental Club,Analytical,Engineer
+403,15,O-Level,2.56,STEM,Physics,Science Club,Analytical,Research Scientist
+404,19,A-Level,2.39,STEM,Physics,Yearbook Committee,Creative,Architect
+405,16,O-Level,3.93,Arts,Music,Dance Team,Creative,Musician
+406,14,O-Level,3.04,STEM,Physics,Language Club,Creative,Architect
+407,15,O-Level,3.6,STEM,Chemistry,Language Club,Enterprising,Marketing Specialist
+408,18,A-Level,2.67,Humanities,English,Art Club,Leader,Teacher
+409,14,O-Level,3.32,STEM,Mathematics,Student Council,Helper,Teacher
+410,13,O-Level,2.44,Humanities,Psychology,Language Club,Enterprising,Marketing Specialist
+411,14,O-Level,3.41,Business,Economics,Environmental Club,Leader,Business Manager
+412,17,A-Level,2.78,STEM,Chemistry,Drama Club,Creative,Artist
+413,16,O-Level,3.98,Humanities,Psychology,Dance Team,Helper,Psychologist
+414,19,A-Level,3.79,Humanities,Geography,Art Club,Creative,Architect
+415,16,O-Level,3.02,Arts,Foreign Language,Sports Team,Helper,Veterinarian
+416,17,A-Level,3.7,STEM,Physics,Chess Club,Investigative,Research Scientist
+417,16,O-Level,2.4,STEM,Mathematics,Student Council,Organizer,Business Manager
+418,19,A-Level,2.07,Arts,Art,Student Council,Organizer,Business Manager
+419,16,O-Level,2.97,Business,Economics,Science Club,Organizer,Financial Analyst
+420,14,O-Level,2.68,STEM,Biology,Debate Team,Enterprising,Business Manager
+421,14,O-Level,2.51,STEM,Chemistry,Coding Club,Investigative,Research Scientist
+422,18,A-Level,3.19,STEM,Biology,Debate Team,Investigative,Environmental Scientist
+423,14,O-Level,3.01,Humanities,Foreign Language,Language Club,Leader,Marketing Specialist
+424,19,A-Level,2.55,STEM,Chemistry,Yearbook Committee,Creative,Graphic Designer
+425,18,A-Level,2.89,Humanities,Geography,Debate Team,Leader,Business Manager
+426,18,A-Level,3.22,Humanities,English,Student Council,Organizer,Teacher
+427,19,A-Level,3.07,STEM,Computer Science,Band/Orchestra,Social,Teacher
+428,17,A-Level,3.21,Humanities,Social Studies,Environmental Club,Analytical,Research Scientist
+429,13,O-Level,3.64,STEM,Biology,Yearbook Committee,Investigative,Environmental Scientist
+430,17,A-Level,2.85,STEM,Mathematics,Coding Club,Organizer,Software Engineer
+431,18,A-Level,2.9,Arts,Art,Math Team,Organizer,Financial Analyst
+432,14,O-Level,3.52,Humanities,English,Sports Team,Leader,Teacher
+433,18,A-Level,3.83,Business,Economics,Band/Orchestra,Leader,Teacher
+434,15,O-Level,2.78,Humanities,Social Studies,Art Club,Creative,Artist
+435,13,O-Level,2.11,STEM,Biology,Coding Club,Investigative,Environmental Scientist
+436,16,O-Level,2.42,Arts,Art,Science Club,Creative,Architect
+437,17,A-Level,2.76,Health,Physical Education,Robotics Club,Analytical,Software Engineer
+438,19,A-Level,2.11,Humanities,Physical Education,Math Team,Analytical,Engineer
+439,13,O-Level,3.68,Humanities,History,Drama Club,Helper,Teacher
+440,13,O-Level,2.79,STEM,Chemistry,Art Club,Analytical,Research Scientist
+441,16,O-Level,2.5,STEM,Chemistry,Band/Orchestra,Investigative,Environmental Scientist
+442,13,O-Level,3.5,STEM,Computer Science,Community Service,Social,Teacher
+443,16,O-Level,2.96,Humanities,English,Community Service,Helper,Teacher
+444,15,O-Level,3.29,STEM,Physics,Math Team,Analytical,Engineer
+445,19,A-Level,3.15,Arts,Art,Environmental Club,Creative,Architect
+446,15,O-Level,3.14,Health,Physical Education,Environmental Club,Social,Journalist
+447,16,O-Level,2.91,STEM,Computer Science,Chess Club,Investigative,Research Scientist
+448,19,A-Level,3.44,STEM,Computer Science,Sports Team,Investigative,Research Scientist
+449,15,O-Level,3.27,Business,Economics,Student Council,Leader,Business Manager
+450,15,O-Level,3.29,Humanities,Geography,Drama Club,Creative,Musician
+451,14,O-Level,3.6,STEM,Chemistry,Chess Club,Analytical,Research Scientist
+452,13,O-Level,3.45,STEM,Mathematics,Environmental Club,Analytical,Engineer
+453,15,O-Level,3.26,Humanities,English,Drama Club,Leader,Teacher
+454,18,A-Level,2.41,STEM,Mathematics,Environmental Club,Organizer,Accountant
+455,15,O-Level,2.83,Humanities,Geography,Drama Club,Social,Journalist
+456,13,O-Level,2.48,Humanities,History,Dance Team,Helper,Teacher
+457,15,O-Level,3.17,STEM,Chemistry,Debate Team,Enterprising,Business Manager
+458,18,A-Level,2.84,Arts,Foreign Language,Robotics Club,Analytical,Engineer
+459,19,A-Level,3.06,Arts,Music,Language Club,Social,Teacher
+460,18,A-Level,2.84,Humanities,Geography,Student Council,Helper,Teacher
+461,15,O-Level,2.9,STEM,Mathematics,Yearbook Committee,Creative,Graphic Designer
+462,15,O-Level,4.0,STEM,Biology,Environmental Club,Helper,Nurse
+463,17,A-Level,3.51,Arts,Art,Sports Team,Creative,Graphic Designer
+464,13,O-Level,2.85,STEM,Biology,Language Club,Enterprising,Marketing Specialist
+465,17,A-Level,2.21,Humanities,History,Band/Orchestra,Enterprising,Teacher
+466,17,A-Level,2.12,Arts,Music,Student Council,Organizer,Business Manager
+467,14,O-Level,2.48,Humanities,Foreign Language,Community Service,Helper,Teacher
+468,13,O-Level,2.36,STEM,Computer Science,Coding Club,Investigative,Research Scientist
+469,16,O-Level,2.93,Humanities,Psychology,Math Team,Leader,Marketing Specialist
+470,18,A-Level,2.88,Humanities,History,Language Club,Social,Teacher
+471,19,A-Level,3.31,Humanities,Foreign Language,Community Service,Social,Teacher
+472,19,A-Level,3.42,Arts,Music,Math Team,Creative,Musician
+473,15,O-Level,2.78,Humanities,Geography,Environmental Club,Creative,Architect
+474,19,A-Level,3.07,Humanities,History,Math Team,Analytical,Software Engineer
+475,18,A-Level,2.54,Humanities,Social Studies,Art Club,Creative,Graphic Designer
+476,17,A-Level,3.21,Humanities,Geography,Chess Club,Helper,Teacher
+477,19,A-Level,3.28,Humanities,History,Robotics Club,Enterprising,Lawyer
+478,13,O-Level,3.31,Humanities,Psychology,Robotics Club,Enterprising,Marketing Specialist
+479,16,O-Level,2.0,Arts,Art,Language Club,Leader,Teacher
+480,19,A-Level,2.75,STEM,Mathematics,Chess Club,Organizer,Financial Analyst
+481,18,A-Level,2.66,Humanities,Psychology,Dance Team,Leader,Marketing Specialist
+482,16,O-Level,2.62,STEM,Chemistry,Dance Team,Analytical,Research Scientist
+483,13,O-Level,3.3,Business,Economics,Art Club,Organizer,Business Manager
+484,17,A-Level,2.17,Health,Foreign Language,Coding Club,Investigative,Research Scientist
+485,19,A-Level,2.72,STEM,Computer Science,Dance Team,Analytical,Research Scientist
+486,17,A-Level,3.79,Business,Foreign Language,Debate Team,Social,Journalist
+487,14,O-Level,2.68,Humanities,English,Language Club,Helper,Teacher
+488,14,O-Level,2.84,STEM,Mathematics,Art Club,Creative,Artist
+489,18,A-Level,2.82,Humanities,Social Studies,Coding Club,Analytical,Research Scientist
+490,15,O-Level,3.42,Arts,Art,Math Team,Organizer,Financial Analyst
+491,19,A-Level,2.28,Health,Physical Education,Drama Club,Creative,Artist
+492,17,A-Level,3.06,Humanities,English,Environmental Club,Social,Teacher
+493,18,A-Level,3.68,Health,Foreign Language,Coding Club,Analytical,Research Scientist
+494,19,A-Level,3.01,STEM,Chemistry,Debate Team,Leader,Business Manager
+495,15,O-Level,2.93,Business,Economics,Dance Team,Enterprising,Business Manager
+496,14,O-Level,2.46,STEM,Biology,Band/Orchestra,Leader,Teacher
+497,19,A-Level,2.57,STEM,Physics,Science Club,Investigative,Research Scientist
+498,13,O-Level,3.11,STEM,Biology,Chess Club,Helper,Veterinarian
+499,15,O-Level,3.19,STEM,Computer Science,Coding Club,Analytical,Research Scientist
+500,17,A-Level,2.95,Arts,Art,Environmental Club,Creative,Architect
+501,15,O-Level,3.36,STEM,Mathematics,Science Club,Analytical,Engineer
+502,19,A-Level,3.11,Arts,Foreign Language,Chess Club,Helper,Teacher
+503,14,O-Level,2.66,STEM,Chemistry,Math Team,Investigative,Environmental Scientist
+504,19,A-Level,3.34,Business,Economics,Science Club,Analytical,Financial Analyst
+505,19,A-Level,3.18,Humanities,Geography,Community Service,Leader,Teacher
+506,13,O-Level,3.14,STEM,Mathematics,Student Council,Organizer,Accountant
+507,15,O-Level,3.71,STEM,Mathematics,Math Team,Organizer,Financial Analyst
+508,19,A-Level,3.04,STEM,Biology,Science Club,Helper,Nurse
+509,14,O-Level,2.35,STEM,Physical Education,Coding Club,Analytical,Software Engineer
+510,19,A-Level,3.89,Arts,Foreign Language,Art Club,Creative,Graphic Designer
+511,19,A-Level,3.04,Arts,Art,Sports Team,Creative,Graphic Designer
+512,19,A-Level,2.78,Arts,Music,Debate Team,Helper,Teacher
+513,15,O-Level,2.56,STEM,Chemistry,Debate Team,Enterprising,Lawyer
+514,14,O-Level,2.91,Humanities,Social Studies,Dance Team,Investigative,Environmental Scientist
+515,17,A-Level,3.18,STEM,Chemistry,Language Club,Enterprising,Marketing Specialist
+516,14,O-Level,3.46,Humanities,Psychology,Coding Club,Investigative,Research Scientist
+517,14,O-Level,2.22,Arts,Art,Sports Team,Creative,Graphic Designer
+518,19,A-Level,2.68,Humanities,English,Science Club,Investigative,Doctor
+519,17,A-Level,3.16,STEM,Chemistry,Dance Team,Investigative,Environmental Scientist
+520,15,O-Level,2.36,Arts,Art,Student Council,Creative,Artist
+521,16,O-Level,2.87,STEM,Biology,Yearbook Committee,Investigative,Environmental Scientist
+522,17,A-Level,2.79,Business,Foreign Language,Robotics Club,Analytical,Software Engineer
+523,15,O-Level,2.99,Humanities,Psychology,Community Service,Leader,Psychologist
+524,19,A-Level,2.81,Business,Economics,Dance Team,Organizer,Business Manager
+525,13,O-Level,3.02,Humanities,Physical Education,Dance Team,Creative,Chef
+526,17,A-Level,3.44,Business,Physical Education,Math Team,Analytical,Software Engineer
+527,16,O-Level,2.11,STEM,Foreign Language,Science Club,Analytical,Research Scientist
+528,14,O-Level,2.87,Humanities,English,Band/Orchestra,Social,Teacher
+529,14,O-Level,2.0,Humanities,Psychology,Community Service,Social,Psychologist
+530,15,O-Level,3.48,Business,Economics,Art Club,Organizer,Financial Analyst
+531,16,O-Level,2.43,Health,Physical Education,Yearbook Committee,Social,Journalist
+532,14,O-Level,2.71,Business,Economics,Language Club,Leader,Business Manager
+533,15,O-Level,2.83,Humanities,Geography,Dance Team,Helper,Teacher
+534,13,O-Level,2.5,STEM,Biology,Student Council,Enterprising,Business Manager
+535,16,O-Level,3.84,Humanities,Physical Education,Debate Team,Organizer,Business Manager
+536,14,O-Level,2.73,STEM,Computer Science,Science Club,Analytical,Research Scientist
+537,19,A-Level,3.16,Humanities,Geography,Band/Orchestra,Helper,Teacher
+538,16,O-Level,3.44,Arts,Art,Art Club,Creative,Architect
+539,17,A-Level,2.77,STEM,Mathematics,Student Council,Organizer,Accountant
+540,16,O-Level,3.33,Humanities,Geography,Environmental Club,Artistic,Psychologist
+541,16,O-Level,3.59,STEM,Mathematics,Student Council,Leader,Lawyer
+542,18,A-Level,3.06,Humanities,Psychology,Robotics Club,Leader,Marketing Specialist
+543,16,O-Level,2.85,STEM,Chemistry,Robotics Club,Investigative,Research Scientist
+544,16,O-Level,3.52,Business,Economics,Science Club,Investigative,Environmental Scientist
+545,16,O-Level,2.96,Health,Physical Education,Dance Team,Social,Psychologist
+546,17,A-Level,2.65,STEM,Mathematics,Yearbook Committee,Organizer,Financial Analyst
+547,17,A-Level,2.5,Humanities,History,Coding Club,Helper,Teacher
+548,13,O-Level,3.56,STEM,Mathematics,Student Council,Leader,Teacher
+549,15,O-Level,2.87,Business,Economics,Debate Team,Social,Journalist
+550,13,O-Level,3.45,Humanities,History,Coding Club,Helper,Teacher
+551,15,O-Level,2.52,STEM,Mathematics,Sports Team,Analytical,Software Engineer
+552,18,A-Level,2.82,STEM,Computer Science,Math Team,Analytical,Software Engineer
+553,13,O-Level,2.38,Humanities,English,Drama Club,Creative,Musician
+554,15,O-Level,2.92,STEM,Mathematics,Language Club,Enterprising,Marketing Specialist
+555,17,A-Level,3.06,Arts,Art,Community Service,Helper,Nurse
+556,18,A-Level,3.37,Humanities,Geography,Debate Team,Social,Journalist
+557,17,A-Level,2.82,Humanities,History,Environmental Club,Leader,Teacher
+558,13,O-Level,3.47,Humanities,Foreign Language,Band/Orchestra,Helper,Teacher
+559,14,O-Level,2.74,Arts,Music,Robotics Club,Leader,Teacher
+560,14,O-Level,3.1,Humanities,Geography,Math Team,Analytical,Software Engineer
+561,15,O-Level,3.2,STEM,Mathematics,Robotics Club,Organizer,Financial Analyst
+562,19,A-Level,2.8,STEM,Physics,Math Team,Investigative,Engineer
+563,17,A-Level,3.66,Humanities,English,Art Club,Creative,Architect
+564,19,A-Level,2.64,Arts,Art,Dance Team,Creative,Graphic Designer
+565,15,O-Level,2.92,Business,Economics,Math Team,Enterprising,Financial Analyst
+566,17,A-Level,3.29,Business,Economics,Robotics Club,Organizer,Accountant
+567,17,A-Level,2.27,Humanities,English,Band/Orchestra,Social,Teacher
+568,15,O-Level,4.0,Arts,Music,Language Club,Leader,Teacher
+569,18,A-Level,3.12,Business,Foreign Language,Drama Club,Social,Journalist
+570,15,O-Level,3.26,Humanities,Social Studies,Community Service,Social,Teacher
+571,17,A-Level,2.61,STEM,Physics,Coding Club,Investigative,Research Scientist
+572,14,O-Level,3.47,STEM,Chemistry,Robotics Club,Analytical,Engineer
+573,15,O-Level,2.38,Humanities,Psychology,Math Team,Enterprising,Marketing Specialist
+574,19,A-Level,2.87,Humanities,History,Art Club,Helper,Teacher
+575,15,O-Level,3.89,Business,Physical Education,Sports Team,Artistic,Business Manager
+576,14,O-Level,2.89,STEM,Physics,Debate Team,Creative,Architect
+577,16,O-Level,3.08,Humanities,Geography,Community Service,Helper,Psychologist
+578,13,O-Level,2.94,STEM,Physics,Drama Club,Creative,Architect
+579,13,O-Level,2.96,STEM,Computer Science,Art Club,Investigative,Research Scientist
+580,18,A-Level,2.75,Humanities,Psychology,Student Council,Enterprising,Marketing Specialist
+581,13,O-Level,3.35,Humanities,Psychology,Math Team,Helper,Psychologist
+582,19,A-Level,2.24,STEM,Biology,Community Service,Helper,Nurse
+583,16,O-Level,2.41,Humanities,Psychology,Chess Club,Helper,Psychologist
+584,17,A-Level,2.98,Humanities,Foreign Language,Science Club,Investigative,Doctor
+585,14,O-Level,2.89,Arts,Music,Science Club,Leader,Teacher
+586,19,A-Level,2.44,Arts,Music,Yearbook Committee,Social,Teacher
+587,16,O-Level,3.6,STEM,Physics,Chess Club,Analytical,Engineer
+588,14,O-Level,3.33,STEM,Computer Science,Language Club,Investigative,Research Scientist
+589,19,A-Level,3.28,Arts,Music,Student Council,Social,Teacher
+590,18,A-Level,2.37,STEM,Biology,Environmental Club,Investigative,Environmental Scientist
+591,18,A-Level,3.28,STEM,Physics,Art Club,Creative,Architect
+592,16,O-Level,2.88,STEM,Foreign Language,Coding Club,Investigative,Research Scientist
+593,19,A-Level,2.32,Arts,Foreign Language,Student Council,Helper,Teacher
+594,15,O-Level,2.99,Health,Physical Education,Coding Club,Analytical,Software Engineer
+595,19,A-Level,2.42,Humanities,Geography,Yearbook Committee,Creative,Graphic Designer
+596,15,O-Level,2.0,STEM,Computer Science,Math Team,Analytical,Software Engineer
+597,14,O-Level,3.52,Humanities,Psychology,Drama Club,Social,Journalist
+598,15,O-Level,3.03,Humanities,Social Studies,Community Service,Leader,Teacher
+599,19,A-Level,2.43,STEM,Biology,Dance Team,Investigative,Environmental Scientist
+600,19,A-Level,3.07,Humanities,English,Community Service,Enterprising,Lawyer
+601,19,A-Level,2.97,STEM,Chemistry,Art Club,Investigative,Doctor
+602,15,O-Level,3.87,Humanities,History,Environmental Club,Enterprising,Lawyer
+603,19,A-Level,4.0,STEM,Mathematics,Drama Club,Social,Journalist
+604,13,O-Level,3.2,Humanities,History,Band/Orchestra,Helper,Teacher
+605,17,A-Level,2.13,STEM,Biology,Science Club,Helper,Nurse
+606,17,A-Level,2.94,Humanities,Foreign Language,Chess Club,Conventional,Marketing Specialist
+607,16,O-Level,3.26,Humanities,Geography,Chess Club,Organizer,Accountant
+608,18,A-Level,2.47,Arts,Music,Environmental Club,Helper,Teacher
+609,13,O-Level,2.28,Humanities,History,Coding Club,Leader,Teacher
+610,16,O-Level,2.98,Humanities,Psychology,Sports Team,Leader,Marketing Specialist
+611,17,A-Level,2.72,Humanities,Physical Education,Sports Team,Creative,Artist
+612,15,O-Level,2.25,Humanities,Foreign Language,Drama Club,Creative,Musician
+613,17,A-Level,2.0,STEM,Computer Science,Chess Club,Analytical,Research Scientist
+614,14,O-Level,3.58,Arts,Music,Science Club,Analytical,Research Scientist
+615,19,A-Level,2.5,Humanities,Social Studies,Language Club,Enterprising,Marketing Specialist
+616,14,O-Level,2.8,Arts,Foreign Language,Band/Orchestra,Leader,Teacher
+617,18,A-Level,2.63,Humanities,Geography,Yearbook Committee,Creative,Graphic Designer
+618,19,A-Level,2.91,STEM,Physics,Band/Orchestra,Social,Teacher
+619,18,A-Level,3.85,Business,Physical Education,Band/Orchestra,Social,Teacher
+620,19,A-Level,2.73,STEM,Chemistry,Debate Team,Organizer,Business Manager
+621,14,O-Level,2.99,Arts,Music,Language Club,Helper,Teacher
+622,17,A-Level,3.15,STEM,Physical Education,Language Club,Leader,Marketing Specialist
+623,14,O-Level,2.67,Humanities,Psychology,Environmental Club,Enterprising,Marketing Specialist
+624,18,A-Level,3.28,Humanities,History,Community Service,Social,Teacher
+625,13,O-Level,3.85,STEM,Biology,Student Council,Leader,Teacher
+626,14,O-Level,2.84,Humanities,Geography,Coding Club,Analytical,Software Engineer
+627,15,O-Level,2.96,Arts,Art,Yearbook Committee,Creative,Graphic Designer
+628,18,A-Level,3.05,Humanities,English,Chess Club,Leader,Lawyer
+629,15,O-Level,3.15,STEM,Chemistry,Dance Team,Investigative,Research Scientist
+630,14,O-Level,2.7,STEM,Biology,Environmental Club,Investigative,Doctor
+631,15,O-Level,2.92,STEM,Biology,Environmental Club,Helper,Nurse
+632,16,O-Level,3.0,Humanities,Psychology,Art Club,Helper,Psychologist
+633,15,O-Level,2.96,Humanities,Social Studies,Art Club,Creative,Architect
+634,15,O-Level,2.64,Humanities,History,Drama Club,Helper,Journalist
+635,19,A-Level,3.43,STEM,Chemistry,Language Club,Analytical,Research Scientist
+636,14,O-Level,3.27,STEM,Mathematics,Sports Team,Analytical,Software Engineer
+637,16,O-Level,2.75,STEM,Computer Science,Drama Club,Social,Journalist
+638,13,O-Level,2.32,Humanities,Social Studies,Dance Team,Analytical,Financial Analyst
+639,15,O-Level,3.19,Humanities,Foreign Language,Dance Team,Social,Teacher
+640,19,A-Level,3.22,Arts,Foreign Language,Chess Club,Creative,Graphic Designer
+641,14,O-Level,2.6,Humanities,Psychology,Robotics Club,Leader,Marketing Specialist
+642,18,A-Level,3.1,Arts,Art,Art Club,Creative,Architect
+643,13,O-Level,2.19,Arts,Art,Drama Club,Creative,Artist
+644,14,O-Level,3.27,Business,Economics,Dance Team,Analytical,Financial Analyst
+645,13,O-Level,3.27,STEM,Computer Science,Science Club,Investigative,Research Scientist
+646,17,A-Level,3.23,Humanities,Social Studies,Science Club,Investigative,Doctor
+647,13,O-Level,3.31,STEM,Biology,Language Club,Enterprising,Marketing Specialist
+648,16,O-Level,3.95,Arts,Physical Education,Art Club,Creative,Graphic Designer
+649,18,A-Level,3.08,Arts,Music,Language Club,Social,Teacher
+650,14,O-Level,2.35,Humanities,Psychology,Student Council,Organizer,Business Manager
+651,19,A-Level,3.01,STEM,Mathematics,Math Team,Organizer,Financial Analyst
+652,16,O-Level,2.24,STEM,Computer Science,Drama Club,Creative,Musician
+653,13,O-Level,2.8,STEM,Mathematics,Band/Orchestra,Creative,Musician
+654,19,A-Level,3.45,Humanities,History,Robotics Club,Leader,Lawyer
+655,15,O-Level,3.17,Humanities,Geography,Community Service,Social,Psychologist
+656,18,A-Level,3.22,Arts,Music,Chess Club,Helper,Teacher
+657,19,A-Level,3.38,Humanities,English,Band/Orchestra,Enterprising,Teacher
+658,16,O-Level,2.47,Humanities,Geography,Art Club,Creative,Graphic Designer
+659,19,A-Level,3.5,Humanities,History,Coding Club,Social,Teacher
+660,16,O-Level,2.58,STEM,Physical Education,Community Service,Leader,Teacher
+661,16,O-Level,2.63,Humanities,Physical Education,Sports Team,Leader,Business Manager
+662,15,O-Level,3.3,Humanities,Geography,Community Service,Leader,Teacher
+663,15,O-Level,2.56,STEM,Chemistry,Chess Club,Investigative,Doctor
+664,17,A-Level,3.0,Humanities,History,Robotics Club,Enterprising,Lawyer
+665,17,A-Level,2.59,STEM,Biology,Student Council,Investigative,Doctor
+666,17,A-Level,2.82,Humanities,History,Community Service,Leader,Teacher
+667,18,A-Level,3.05,Arts,Foreign Language,Art Club,Creative,Architect
+668,13,O-Level,2.83,Business,Economics,Debate Team,Leader,Business Manager
+669,14,O-Level,3.8,Business,Economics,Drama Club,Organizer,Business Manager
+670,13,O-Level,2.55,Humanities,History,Robotics Club,Helper,Teacher
+671,19,A-Level,3.57,Arts,Physical Education,Language Club,Social,Journalist
+672,14,O-Level,3.58,STEM,Chemistry,Math Team,Organizer,Financial Analyst
+673,16,O-Level,2.48,Arts,Art,Debate Team,Creative,Artist
+674,13,O-Level,3.52,STEM,Mathematics,Drama Club,Social,Journalist
+675,18,A-Level,2.21,Humanities,History,Dance Team,Social,Journalist
+676,18,A-Level,2.96,STEM,Physical Education,Yearbook Committee,Social,Journalist
+677,14,O-Level,3.27,STEM,Mathematics,Band/Orchestra,Analytical,Software Engineer
+678,18,A-Level,3.3,STEM,Physics,Debate Team,Creative,Architect
+679,18,A-Level,3.48,STEM,Chemistry,Sports Team,Investigative,Environmental Scientist
+680,19,A-Level,3.33,Business,Economics,Band/Orchestra,Creative,Musician
+681,19,A-Level,3.34,Humanities,Geography,Chess Club,Social,Journalist
+682,13,O-Level,3.37,STEM,Biology,Drama Club,Helper,Veterinarian
+683,16,O-Level,2.7,Humanities,Geography,Debate Team,Enterprising,Lawyer
+684,14,O-Level,2.23,STEM,Computer Science,Yearbook Committee,Analytical,Research Scientist
+685,13,O-Level,3.04,STEM,Biology,Community Service,Investigative,Nurse
+686,18,A-Level,2.34,Arts,Music,Robotics Club,Analytical,Software Engineer
+687,16,O-Level,3.26,Humanities,Geography,Dance Team,Helper,Nurse
+688,17,A-Level,3.12,STEM,Mathematics,Community Service,Social,Psychologist
+689,17,A-Level,3.41,STEM,Biology,Art Club,Investigative,Environmental Scientist
+690,16,O-Level,3.07,STEM,Biology,Dance Team,Investigative,Environmental Scientist
+691,18,A-Level,2.59,Humanities,History,Debate Team,Helper,Teacher
+692,18,A-Level,2.93,STEM,Physics,Dance Team,Creative,Architect
+693,14,O-Level,3.12,Arts,Art,Sports Team,Creative,Architect
+694,19,A-Level,3.88,Humanities,Psychology,Language Club,Helper,Marketing Specialist
+695,18,A-Level,2.76,Arts,Foreign Language,Yearbook Committee,Social,Journalist
+696,19,A-Level,2.46,Humanities,Psychology,Drama Club,Social,Psychologist
+697,15,O-Level,3.03,Business,Foreign Language,Math Team,Organizer,Financial Analyst
+698,14,O-Level,2.98,STEM,Chemistry,Dance Team,Analytical,Research Scientist
+699,16,O-Level,3.33,STEM,Computer Science,Sports Team,Analytical,Software Engineer
+700,13,O-Level,3.0,Humanities,English,Art Club,Helper,Teacher
+701,14,O-Level,3.7,Humanities,Psychology,Student Council,Leader,Teacher
+702,16,O-Level,3.51,STEM,Biology,Sports Team,Helper,Nurse
+703,16,O-Level,2.18,STEM,Computer Science,Environmental Club,Investigative,Research Scientist
+704,19,A-Level,3.17,Humanities,Social Studies,Art Club,Creative,Architect
+705,19,A-Level,2.43,Arts,Art,Science Club,Investigative,Doctor
+706,16,O-Level,2.63,Business,Economics,Language Club,Leader,Business Manager
+707,19,A-Level,3.78,Arts,Music,Science Club,Investigative,Doctor
+708,17,A-Level,2.8,STEM,Biology,Drama Club,Creative,Artist
+709,15,O-Level,3.15,STEM,Chemistry,Robotics Club,Investigative,Research Scientist
+710,19,A-Level,2.0,Arts,Art,Dance Team,Creative,Graphic Designer
+711,18,A-Level,3.19,Humanities,English,Environmental Club,Helper,Teacher
+712,19,A-Level,2.92,STEM,Physics,Language Club,Helper,Teacher
+713,14,O-Level,2.9,Humanities,Psychology,Dance Team,Social,Marketing Specialist
+714,17,A-Level,2.73,STEM,Chemistry,Math Team,Organizer,Financial Analyst
+715,18,A-Level,3.87,Business,Economics,Community Service,Leader,Business Manager
+716,14,O-Level,3.04,Business,Economics,Community Service,Enterprising,Business Manager
+717,14,O-Level,2.52,Business,Economics,Community Service,Helper,Teacher
+718,16,O-Level,3.58,Humanities,Psychology,Coding Club,Analytical,Research Scientist
+719,14,O-Level,3.14,Business,Economics,Debate Team,Leader,Business Manager
+720,15,O-Level,3.68,Humanities,English,Yearbook Committee,Leader,Lawyer
+721,13,O-Level,3.31,Humanities,History,Student Council,Helper,Teacher
+722,18,A-Level,2.94,Humanities,Foreign Language,Robotics Club,Analytical,Software Engineer
+723,18,A-Level,3.84,STEM,Foreign Language,Environmental Club,Investigative,Doctor
+724,17,A-Level,3.33,Arts,Music,Chess Club,Social,Teacher
+725,18,A-Level,3.14,STEM,Physics,Language Club,Social,Teacher
+726,19,A-Level,3.7,Business,Economics,Yearbook Committee,Creative,Graphic Designer
+727,13,O-Level,2.9,STEM,Mathematics,Environmental Club,Organizer,Accountant
+728,17,A-Level,2.67,Arts,Art,Robotics Club,Analytical,Engineer
+729,17,A-Level,3.17,Arts,Art,Robotics Club,Creative,Architect
+730,14,O-Level,2.66,STEM,Mathematics,Debate Team,Social,Journalist
+731,14,O-Level,3.09,Humanities,Psychology,Robotics Club,Social,Psychologist
+732,18,A-Level,2.27,STEM,Mathematics,Coding Club,Organizer,Financial Analyst
+733,17,A-Level,3.24,Humanities,English,Science Club,Analytical,Research Scientist
+734,16,O-Level,3.45,STEM,Computer Science,Debate Team,Investigative,Research Scientist
+735,14,O-Level,2.49,Business,Economics,Sports Team,Organizer,Financial Analyst
+736,15,O-Level,2.42,Health,Physical Education,Chess Club,Artistic,Accountant
+737,13,O-Level,2.94,Humanities,English,Band/Orchestra,Social,Teacher
+738,13,O-Level,3.53,STEM,Chemistry,Community Service,Investigative,Doctor
+739,13,O-Level,3.28,STEM,Mathematics,Community Service,Leader,Teacher
+740,14,O-Level,2.66,Humanities,Geography,Math Team,Organizer,Financial Analyst
+741,17,A-Level,3.87,Arts,Art,Yearbook Committee,Creative,Graphic Designer
+742,18,A-Level,2.71,Humanities,History,Language Club,Enterprising,Marketing Specialist
+743,19,A-Level,2.5,STEM,Chemistry,Chess Club,Analytical,Research Scientist
+744,18,A-Level,3.69,Humanities,Geography,Chess Club,Enterprising,Marketing Specialist
+745,13,O-Level,2.74,Humanities,Foreign Language,Band/Orchestra,Social,Teacher
+746,18,A-Level,3.31,STEM,Chemistry,Coding Club,Analytical,Research Scientist
+747,13,O-Level,2.88,STEM,Biology,Coding Club,Investigative,Doctor
+748,17,A-Level,3.42,STEM,Chemistry,Science Club,Investigative,Research Scientist
+749,15,O-Level,3.33,STEM,Computer Science,Robotics Club,Analytical,Software Engineer
+750,19,A-Level,2.55,STEM,Chemistry,Chess Club,Investigative,Doctor
+751,15,O-Level,3.19,Humanities,Social Studies,Robotics Club,Analytical,Engineer
+752,19,A-Level,3.17,STEM,Foreign Language,Dance Team,Analytical,Research Scientist
+753,13,O-Level,2.43,Humanities,Psychology,Student Council,Social,Marketing Specialist
+754,17,A-Level,4.0,STEM,Computer Science,Language Club,Helper,Teacher
+755,16,O-Level,2.91,Humanities,Psychology,Chess Club,Helper,Psychologist
+756,19,A-Level,2.8,Humanities,Geography,Language Club,Helper,Teacher
+757,13,O-Level,2.8,Business,Economics,Community Service,Helper,Nurse
+758,16,O-Level,3.28,Humanities,English,Student Council,Enterprising,Lawyer
+759,18,A-Level,3.52,STEM,Biology,Drama Club,Creative,Musician
+760,17,A-Level,3.55,Business,Physical Education,Science Club,Analytical,Research Scientist
+761,17,A-Level,3.22,Arts,Art,Band/Orchestra,Helper,Teacher
+762,13,O-Level,2.56,Arts,Physical Education,Drama Club,Creative,Artist
+763,14,O-Level,3.47,Humanities,Psychology,Language Club,Leader,Marketing Specialist
+764,16,O-Level,2.2,Arts,Music,Student Council,Social,Teacher
+765,15,O-Level,3.32,Humanities,History,Drama Club,Social,Journalist
+766,19,A-Level,2.82,Arts,Art,Environmental Club,Creative,Artist
+767,13,O-Level,2.97,STEM,Biology,Science Club,Helper,Veterinarian
+768,14,O-Level,3.01,STEM,Chemistry,Art Club,Analytical,Research Scientist
+769,15,O-Level,3.28,Humanities,History,Drama Club,Creative,Musician
+770,15,O-Level,2.54,STEM,Chemistry,Debate Team,Enterprising,Lawyer
+771,15,O-Level,2.83,Humanities,History,Science Club,Helper,Teacher
+772,16,O-Level,2.55,Humanities,Social Studies,Environmental Club,Organizer,Business Manager
+773,19,A-Level,2.89,Humanities,Social Studies,Science Club,Analytical,Research Scientist
+774,14,O-Level,2.66,Business,Economics,Sports Team,Enterprising,Business Manager
+775,13,O-Level,2.64,STEM,Computer Science,Student Council,Helper,Teacher
+776,17,A-Level,2.48,Humanities,History,Math Team,Organizer,Financial Analyst
+777,16,O-Level,3.61,Arts,Physical Education,Sports Team,Analytical,Software Engineer
+778,14,O-Level,3.37,Business,Economics,Chess Club,Organizer,Accountant
+779,16,O-Level,2.23,Humanities,Geography,Math Team,Analytical,Engineer
+780,15,O-Level,3.16,Arts,Art,Drama Club,Creative,Artist
+781,17,A-Level,2.89,Humanities,Geography,Student Council,Leader,Teacher
+782,19,A-Level,3.69,Arts,Music,Robotics Club,Creative,Musician
+783,13,O-Level,3.25,Humanities,Social Studies,Dance Team,Organizer,Financial Analyst
+784,15,O-Level,3.38,Humanities,Psychology,Yearbook Committee,Helper,Psychologist
+785,17,A-Level,3.44,Humanities,Psychology,Robotics Club,Analytical,Engineer
+786,18,A-Level,2.76,Arts,Art,Math Team,Creative,Graphic Designer
+787,16,O-Level,3.0,Health,Foreign Language,Science Club,Analytical,Research Scientist
+788,16,O-Level,2.88,STEM,Physics,Environmental Club,Investigative,Research Scientist
+789,18,A-Level,3.06,STEM,Computer Science,Language Club,Helper,Teacher
+790,18,A-Level,3.69,Humanities,English,Environmental Club,Helper,Teacher
+791,17,A-Level,3.66,Humanities,English,Debate Team,Helper,Teacher
+792,13,O-Level,3.5,Arts,Music,Dance Team,Creative,Musician
+793,18,A-Level,2.62,STEM,Chemistry,Community Service,Social,Psychologist
+794,19,A-Level,2.8,Humanities,History,Math Team,Enterprising,Lawyer
+795,17,A-Level,2.97,STEM,Mathematics,Language Club,Enterprising,Marketing Specialist
+796,15,O-Level,2.61,Humanities,Psychology,Yearbook Committee,Social,Marketing Specialist
+797,16,O-Level,2.78,STEM,Chemistry,Debate Team,Analytical,Research Scientist
+798,15,O-Level,3.22,Humanities,Social Studies,Band/Orchestra,Social,Teacher
+799,14,O-Level,2.57,Arts,Foreign Language,Debate Team,Social,Journalist
+800,13,O-Level,2.01,Humanities,Psychology,Robotics Club,Leader,Marketing Specialist
+801,16,O-Level,3.49,Humanities,English,Student Council,Organizer,Teacher
+802,18,A-Level,3.04,Business,Foreign Language,Band/Orchestra,Creative,Musician
+803,13,O-Level,3.06,Humanities,Psychology,Art Club,Enterprising,Marketing Specialist
+804,14,O-Level,2.66,Arts,Art,Band/Orchestra,Social,Teacher
+805,13,O-Level,3.33,Arts,Music,Chess Club,Creative,Musician
+806,15,O-Level,2.69,Humanities,Social Studies,Sports Team,Enterprising,Marketing Specialist
+807,19,A-Level,2.68,STEM,Computer Science,Band/Orchestra,Social,Teacher
+808,18,A-Level,3.2,STEM,Physical Education,Art Club,Creative,Artist
+809,18,A-Level,2.81,Humanities,Physical Education,Student Council,Organizer,Business Manager
+810,15,O-Level,2.04,STEM,Biology,Language Club,Investigative,Environmental Scientist
+811,17,A-Level,3.27,Business,Economics,Student Council,Helper,Business Manager
+812,15,O-Level,3.09,Humanities,Social Studies,Community Service,Social,Psychologist
+813,15,O-Level,3.74,STEM,Mathematics,Yearbook Committee,Creative,Graphic Designer
+814,13,O-Level,2.42,Humanities,Social Studies,Debate Team,Organizer,Business Manager
+815,13,O-Level,2.83,Humanities,Social Studies,Sports Team,Helper,Teacher
+816,15,O-Level,2.86,STEM,Computer Science,Math Team,Analytical,Software Engineer
+817,16,O-Level,3.22,Humanities,History,Debate Team,Social,Journalist
+818,14,O-Level,3.01,STEM,Biology,Dance Team,Helper,Veterinarian
+819,19,A-Level,3.36,STEM,Mathematics,Environmental Club,Analytical,Software Engineer
+820,19,A-Level,3.16,Arts,Music,Language Club,Leader,Teacher
+821,17,A-Level,2.95,STEM,Biology,Math Team,Analytical,Engineer
+822,16,O-Level,3.62,Humanities,English,Math Team,Leader,Lawyer
+823,19,A-Level,2.95,Humanities,Geography,Student Council,Organizer,Business Manager
+824,13,O-Level,3.83,STEM,Biology,Student Council,Investigative,Doctor
+825,15,O-Level,4.0,Humanities,Psychology,Yearbook Committee,Social,Psychologist
+826,17,A-Level,2.71,Business,Economics,Community Service,Leader,Business Manager
+827,16,O-Level,2.48,Humanities,History,Language Club,Enterprising,Lawyer
+828,15,O-Level,3.22,Health,Physical Education,Debate Team,Enterprising,Business Manager
+829,17,A-Level,2.49,STEM,Physics,Science Club,Analytical,Research Scientist
+830,17,A-Level,3.04,Health,Foreign Language,Math Team,Analytical,Engineer
+831,18,A-Level,2.88,Arts,Art,Art Club,Creative,Artist
+832,16,O-Level,3.78,Business,Foreign Language,Language Club,Helper,Teacher
+833,19,A-Level,3.04,STEM,Mathematics,Student Council,Leader,Teacher
+834,17,A-Level,3.68,Humanities,History,Coding Club,Helper,Teacher
+835,14,O-Level,3.19,Humanities,Geography,Robotics Club,Analytical,Software Engineer
+836,15,O-Level,2.61,STEM,Mathematics,Chess Club,Analytical,Software Engineer
+837,17,A-Level,2.93,Humanities,Psychology,Student Council,Social,Marketing Specialist
+838,14,O-Level,2.81,STEM,Physics,Band/Orchestra,Social,Teacher
+839,15,O-Level,3.33,STEM,Physics,Dance Team,Investigative,Research Scientist
+840,17,A-Level,3.06,Health,Foreign Language,Environmental Club,Conventional,Marketing Specialist
+841,17,A-Level,3.42,STEM,Computer Science,Community Service,Helper,Nurse
+842,13,O-Level,2.32,Humanities,Geography,Student Council,Social,Teacher
+843,13,O-Level,3.01,Humanities,Physical Education,Sports Team,Helper,Teacher
+844,14,O-Level,2.84,Humanities,Geography,Environmental Club,Artistic,Engineer
+845,16,O-Level,3.53,STEM,Chemistry,Debate Team,Organizer,Business Manager
+846,13,O-Level,4.0,Humanities,English,Debate Team,Leader,Lawyer
+847,15,O-Level,3.32,Humanities,Geography,Band/Orchestra,Helper,Teacher
+848,13,O-Level,2.39,STEM,Physics,Band/Orchestra,Creative,Architect
+849,14,O-Level,3.9,Humanities,Social Studies,Art Club,Creative,Artist
+850,19,A-Level,3.22,Arts,Art,Sports Team,Creative,Graphic Designer
+851,13,O-Level,2.67,STEM,Chemistry,Art Club,Analytical,Research Scientist
+852,19,A-Level,3.47,STEM,Physical Education,Chess Club,Artistic,Marketing Specialist
+853,14,O-Level,3.63,STEM,Computer Science,Language Club,Leader,Marketing Specialist
+854,19,A-Level,3.22,Humanities,English,Drama Club,Social,Journalist
+855,18,A-Level,2.35,STEM,Biology,Science Club,Helper,Nurse
+856,19,A-Level,3.68,STEM,Physics,Band/Orchestra,Helper,Teacher
+857,18,A-Level,3.42,Humanities,English,Environmental Club,Enterprising,Lawyer
+858,13,O-Level,2.7,Business,Economics,Band/Orchestra,Helper,Teacher
+859,15,O-Level,3.12,STEM,Physics,Student Council,Organizer,Business Manager
+860,19,A-Level,2.99,Arts,Art,Dance Team,Creative,Architect
+861,13,O-Level,3.53,Business,Economics,Dance Team,Analytical,Financial Analyst
+862,17,A-Level,2.0,Humanities,History,Coding Club,Investigative,Research Scientist
+863,14,O-Level,2.67,Humanities,English,Coding Club,Social,Teacher
+864,18,A-Level,2.7,Humanities,Geography,Dance Team,Organizer,Financial Analyst
+865,16,O-Level,2.81,Business,Physical Education,Student Council,Helper,Teacher
+866,16,O-Level,2.54,Humanities,Psychology,Sports Team,Enterprising,Marketing Specialist
+867,15,O-Level,3.24,Humanities,History,Yearbook Committee,Social,Journalist
+868,19,A-Level,4.0,Humanities,English,Art Club,Enterprising,Lawyer
+869,14,O-Level,3.1,Business,Economics,Math Team,Leader,Financial Analyst
+870,17,A-Level,2.42,Humanities,English,Sports Team,Leader,Teacher
+871,17,A-Level,3.09,Arts,Music,Environmental Club,Social,Teacher
+872,16,O-Level,3.38,Humanities,History,Community Service,Helper,Teacher
+873,15,O-Level,2.83,STEM,Computer Science,Yearbook Committee,Analytical,Software Engineer
+874,16,O-Level,2.73,STEM,Physics,Art Club,Analytical,Architect
+875,13,O-Level,3.49,STEM,Computer Science,Math Team,Organizer,Software Engineer
+876,13,O-Level,2.76,STEM,Biology,Math Team,Organizer,Financial Analyst
+877,17,A-Level,2.65,STEM,Physics,Environmental Club,Analytical,Research Scientist
+878,15,O-Level,3.8,STEM,Computer Science,Art Club,Analytical,Software Engineer
+879,19,A-Level,2.47,Business,Economics,Art Club,Analytical,Financial Analyst
+880,15,O-Level,3.42,Humanities,Psychology,Coding Club,Investigative,Research Scientist
+881,19,A-Level,3.4,Arts,Music,Debate Team,Enterprising,Lawyer
+882,19,A-Level,3.67,Humanities,History,Sports Team,Helper,Teacher
+883,16,O-Level,2.97,STEM,Physics,Language Club,Social,Teacher
+884,15,O-Level,2.13,Business,Economics,Math Team,Leader,Business Manager
+885,16,O-Level,3.32,Business,Economics,Community Service,Leader,Teacher
+886,16,O-Level,2.88,Humanities,Psychology,Debate Team,Social,Psychologist
+887,17,A-Level,2.0,Humanities,Psychology,Chess Club,Social,Psychologist
+888,16,O-Level,2.99,Business,Economics,Coding Club,Leader,Business Manager
+889,16,O-Level,2.75,Humanities,History,Yearbook Committee,Enterprising,Journalist
+890,15,O-Level,3.63,Arts,Music,Debate Team,Creative,Musician
+891,14,O-Level,2.17,Humanities,English,Yearbook Committee,Social,Journalist
+892,16,O-Level,2.83,STEM,Biology,Yearbook Committee,Helper,Veterinarian
+893,13,O-Level,2.1,Humanities,English,Language Club,Social,Journalist
+894,14,O-Level,3.72,STEM,Biology,Drama Club,Creative,Musician
+895,13,O-Level,2.65,STEM,Chemistry,Band/Orchestra,Analytical,Research Scientist
+896,15,O-Level,2.76,STEM,Physics,Sports Team,Creative,Architect
+897,16,O-Level,3.53,STEM,Mathematics,Coding Club,Analytical,Software Engineer
+898,15,O-Level,3.47,Humanities,Psychology,Community Service,Helper,Psychologist
+899,13,O-Level,2.14,STEM,Chemistry,Community Service,Investigative,Environmental Scientist
+900,13,O-Level,3.51,Humanities,History,Band/Orchestra,Leader,Teacher
+901,15,O-Level,2.98,Humanities,History,Dance Team,Helper,Teacher
+902,17,A-Level,2.24,STEM,Physics,Language Club,Leader,Teacher
+903,13,O-Level,2.9,STEM,Chemistry,Language Club,Analytical,Research Scientist
+904,17,A-Level,3.55,Business,Economics,Sports Team,Organizer,Accountant
+905,16,O-Level,2.63,Humanities,Geography,Language Club,Leader,Teacher
+906,15,O-Level,2.51,Arts,Physical Education,Language Club,Social,Teacher
+907,17,A-Level,3.37,Humanities,Psychology,Drama Club,Social,Psychologist
+908,14,O-Level,3.23,Humanities,Social Studies,Community Service,Helper,Teacher
+909,18,A-Level,2.85,STEM,Chemistry,Science Club,Investigative,Environmental Scientist
+910,13,O-Level,3.4,STEM,Physics,Drama Club,Creative,Musician
+911,17,A-Level,2.74,STEM,Computer Science,Math Team,Analytical,Software Engineer
+912,16,O-Level,2.46,Business,Economics,Science Club,Leader,Business Manager
+913,19,A-Level,2.25,STEM,Biology,Environmental Club,Investigative,Environmental Scientist
+914,14,O-Level,3.11,STEM,Computer Science,Band/Orchestra,Investigative,Research Scientist
+915,16,O-Level,4.0,STEM,Mathematics,Math Team,Organizer,Financial Analyst
+916,15,O-Level,3.35,Humanities,Foreign Language,Yearbook Committee,Creative,Graphic Designer
+917,13,O-Level,3.54,STEM,Computer Science,Science Club,Analytical,Research Scientist
+918,18,A-Level,2.94,Humanities,Foreign Language,Language Club,Enterprising,Marketing Specialist
+919,13,O-Level,2.72,Arts,Art,Sports Team,Creative,Graphic Designer
+920,16,O-Level,2.42,Humanities,Psychology,Art Club,Leader,Marketing Specialist
+921,19,A-Level,2.4,STEM,Mathematics,Science Club,Analytical,Financial Analyst
+922,13,O-Level,2.91,Arts,Art,Yearbook Committee,Creative,Graphic Designer
+923,18,A-Level,3.04,Business,Economics,Debate Team,Organizer,Business Manager
+924,16,O-Level,3.89,Humanities,English,Drama Club,Leader,Teacher
+925,13,O-Level,2.0,Humanities,Social Studies,Band/Orchestra,Social,Teacher
+926,19,A-Level,2.58,Arts,Physical Education,Science Club,Investigative,Research Scientist
+927,13,O-Level,3.0,Arts,Music,Debate Team,Creative,Musician
+928,19,A-Level,2.71,STEM,Physics,Sports Team,Creative,Architect
+929,14,O-Level,2.38,STEM,Biology,Debate Team,Investigative,Doctor
+930,13,O-Level,2.97,Humanities,English,Band/Orchestra,Leader,Teacher
+931,13,O-Level,3.83,Business,Economics,Drama Club,Enterprising,Business Manager
+932,13,O-Level,3.19,Humanities,History,Science Club,Helper,Teacher
+933,17,A-Level,3.16,Health,Physical Education,Band/Orchestra,Leader,Teacher
+934,16,O-Level,4.0,STEM,Biology,Sports Team,Helper,Nurse
+935,15,O-Level,3.06,Humanities,English,Drama Club,Creative,Artist
+936,18,A-Level,3.54,Humanities,English,Debate Team,Enterprising,Lawyer
+937,16,O-Level,2.67,STEM,Physics,Math Team,Creative,Architect
+938,13,O-Level,3.22,STEM,Biology,Band/Orchestra,Helper,Veterinarian
+939,19,A-Level,2.71,Arts,Music,Dance Team,Creative,Musician
+940,15,O-Level,3.49,STEM,Biology,Environmental Club,Investigative,Doctor
+941,15,O-Level,3.07,STEM,Chemistry,Environmental Club,Investigative,Doctor
+942,15,O-Level,3.06,STEM,Mathematics,Language Club,Organizer,Accountant
+943,17,A-Level,3.11,Arts,Music,Debate Team,Helper,Teacher
+944,17,A-Level,3.19,Business,Economics,Science Club,Leader,Business Manager
+945,18,A-Level,3.51,Humanities,History,Sports Team,Leader,Lawyer
+946,14,O-Level,3.11,Humanities,English,Dance Team,Social,Journalist
+947,14,O-Level,3.71,Humanities,History,Band/Orchestra,Creative,Teacher
+948,18,A-Level,3.52,Arts,Music,Language Club,Social,Teacher
+949,15,O-Level,2.49,Humanities,English,Student Council,Enterprising,Lawyer
+950,18,A-Level,2.84,Humanities,Psychology,Robotics Club,Analytical,Engineer
+951,19,A-Level,2.6,Business,Foreign Language,Environmental Club,Investigative,Research Scientist
+952,17,A-Level,2.14,STEM,Mathematics,Sports Team,Analytical,Financial Analyst
+953,19,A-Level,2.87,Humanities,History,Environmental Club,Helper,Teacher
+954,18,A-Level,2.88,STEM,Mathematics,Math Team,Organizer,Financial Analyst
+955,14,O-Level,2.43,STEM,Mathematics,Chess Club,Analytical,Software Engineer
+956,13,O-Level,2.85,STEM,Chemistry,Band/Orchestra,Creative,Musician
+957,16,O-Level,2.64,Business,Foreign Language,Language Club,Social,Marketing Specialist
+958,14,O-Level,3.45,STEM,Physics,Community Service,Creative,Architect
+959,15,O-Level,2.98,STEM,Computer Science,Language Club,Enterprising,Marketing Specialist
+960,15,O-Level,2.88,Humanities,Psychology,Dance Team,Leader,Marketing Specialist
+961,16,O-Level,2.47,Humanities,History,Drama Club,Social,Journalist
+962,16,O-Level,2.43,Arts,Art,Community Service,Leader,Teacher
+963,13,O-Level,3.01,Business,Economics,Yearbook Committee,Organizer,Business Manager
+964,19,A-Level,3.07,Humanities,Social Studies,Robotics Club,Analytical,Engineer
+965,15,O-Level,3.31,Humanities,History,Language Club,Social,Journalist
+966,15,O-Level,3.41,Humanities,History,Dance Team,Leader,Teacher
+967,14,O-Level,3.28,Business,Foreign Language,Dance Team,Helper,Teacher
+968,13,O-Level,2.71,STEM,Mathematics,Coding Club,Investigative,Research Scientist
+969,16,O-Level,3.14,Humanities,History,Coding Club,Investigative,Research Scientist
+970,15,O-Level,3.29,STEM,Physical Education,Math Team,Organizer,Financial Analyst
+971,16,O-Level,3.61,Humanities,Social Studies,Drama Club,Creative,Musician
+972,15,O-Level,3.51,Business,Economics,Coding Club,Investigative,Research Scientist
+973,18,A-Level,2.61,Humanities,Foreign Language,Coding Club,Analytical,Research Scientist
+974,18,A-Level,3.14,STEM,Physics,Sports Team,Creative,Architect
+975,19,A-Level,3.07,Humanities,English,Debate Team,Helper,Lawyer
+976,17,A-Level,3.56,Humanities,Geography,Chess Club,Organizer,Accountant
+977,17,A-Level,2.0,Arts,Music,Drama Club,Creative,Musician
+978,19,A-Level,2.48,STEM,Biology,Yearbook Committee,Social,Journalist
+979,17,A-Level,3.31,Humanities,Social Studies,Band/Orchestra,Social,Teacher
+980,19,A-Level,3.69,Humanities,History,Art Club,Helper,Teacher
+981,17,A-Level,2.62,STEM,Computer Science,Community Service,Analytical,Software Engineer
+982,18,A-Level,3.25,Arts,Music,Coding Club,Creative,Musician
+983,18,A-Level,4.0,STEM,Physics,Yearbook Committee,Creative,Architect
+984,14,O-Level,3.49,Humanities,Psychology,Dance Team,Leader,Marketing Specialist
+985,13,O-Level,3.29,Business,Economics,Community Service,Organizer,Financial Analyst
+986,18,A-Level,3.22,STEM,Computer Science,Community Service,Leader,Teacher
+987,15,O-Level,2.78,STEM,Chemistry,Chess Club,Analytical,Research Scientist
+988,14,O-Level,3.05,Arts,Art,Science Club,Creative,Architect
+989,19,A-Level,3.25,STEM,Physics,Drama Club,Creative,Architect
+990,18,A-Level,3.3,STEM,Chemistry,Band/Orchestra,Leader,Teacher
+991,16,O-Level,3.47,STEM,Physical Education,Science Club,Analytical,Research Scientist
+992,13,O-Level,2.8,Humanities,History,Science Club,Helper,Teacher
+993,15,O-Level,3.6,STEM,Mathematics,Sports Team,Organizer,Financial Analyst
+994,18,A-Level,2.87,Business,Economics,Science Club,Analytical,Financial Analyst
+995,15,O-Level,2.62,Business,Economics,Debate Team,Analytical,Business Manager
+996,14,O-Level,3.08,Arts,Art,Debate Team,Social,Journalist
+997,16,O-Level,2.45,Humanities,Geography,Environmental Club,Conventional,Musician
+998,15,O-Level,2.2,Humanities,English,Environmental Club,Social,Journalist
+999,15,O-Level,2.62,Health,Physical Education,Yearbook Committee,Social,Journalist
+1000,15,O-Level,3.41,Humanities,Psychology,Environmental Club,Leader,Marketing Specialist
