@@ -28,7 +28,7 @@ const NavBar = () => {
         <li>
           <Link 
             to="/prediction" 
-            className={`text-custom-grey hover:text-primary ${isActive('/') ? 'border-b-2  border-primary' : ''}`}
+            className={`text-custom-grey hover:text-primary ${isActive('/prediction') ? 'border-b-2  border-primary' : ''}`}
             onClick={() => setActiveItem('/prediction')}
           >
             Prediction
@@ -37,7 +37,7 @@ const NavBar = () => {
         <li>
           <Link 
             to="/visualizations" 
-            className={`text-custom-grey hover:text-primary ${isActive('/') ? 'border-b-2  border-primary' : ''}`}
+            className={`text-custom-grey hover:text-primary ${isActive('/visualizations') ? 'border-b-2  border-primary' : ''}`}
             onClick={() => setActiveItem('/visualizations')}
           >
             Visualizations
@@ -46,7 +46,7 @@ const NavBar = () => {
         <li>
           <Link 
             to="/upload" 
-            className={`text-custom-grey hover:text-primary ${isActive('/') ? 'border-b-2  border-primary' : ''}`}
+            className={`text-custom-grey hover:text-primary ${isActive('/upload') ? 'border-b-2  border-primary' : ''}`}
             onClick={() => setActiveItem('/upload')}
           >
             Upload
@@ -55,7 +55,7 @@ const NavBar = () => {
         <li>
           <Link 
             to="/retrain" 
-            className={`text-custom-grey hover:text-primary ${isActive('/') ? 'border-b-2  border-primary' : ''}`}
+            className={`text-custom-grey hover:text-primary ${isActive('/retrain') ? 'border-b-2  border-primary' : ''}`}
             onClick={() => setActiveItem('/retrain')}
           >
             Retrain

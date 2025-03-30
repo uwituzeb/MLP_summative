@@ -17,8 +17,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/prediction" element={<Prediction />} />
           <Route path="/visualizations" element={<Visualizations />} />
-          <Route path="/upload-data" element={<UploadData />} />
-          <Route path="/retraining" element={<Retraining />} />
+          <Route path="/upload" element={<UploadData />} />
+          <Route path="/retrain" element={<Retraining />} />
           <Route path="*" element={<h1 className="text-center mt-10 text-2xl">404 - Page Not Found</h1>} />
         </Routes>
       </div>
