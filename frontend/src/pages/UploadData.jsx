@@ -71,7 +71,7 @@ const UploadData = () => {
       <button
         onClick={handleUpload}
         disabled={isUploading || !file}
-        className={`w-full bg-primary text-white hover:cursor-pointer py-3 px-8 rounded-md font-medium ${
+        className={`w-full bg-primary text-white hover:cursor-pointer py-3 px-8 rounded-md font-medium font-primary ${
           isUploading || !file ? 'opacity-70 cursor-not-allowed' : 'hover:bg-primary/75'
         }`}
       >
