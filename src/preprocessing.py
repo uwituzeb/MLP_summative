@@ -17,8 +17,6 @@ def preprocess_data(df, is_train=True, scaler_path='./models/scaler.pkl', encode
     X = pd.get_dummies(X, columns=[col for col in categorical_cols if col in X.columns])
 
     if is_train:
-        le = LabelEncoder()
-        y_encoded = le.fit_transform(y)
         # Split data
         x_train, x_temp, y_train, y_temp = train_test_split(X, y, test_size=0.4, random_state=42)
         x_val, x_test, y_val, y_test = train_test_split(x_temp, y_temp, test_size=0.5, random_state=42)
@@ -65,3 +63,24 @@ def preprocess_data(df, is_train=True, scaler_path='./models/scaler.pkl', encode
 
         X_scaled = scaler.transform(X_aligned)
         return X_scaled
+    
+def preprocess_data_for_retrain(df, scaler_path='./models/scaler.pkl', encoder_path='./models/label_encoder.pkl', column_path='./models/scaler.pkl.columns'):
+    # Preprocess data for retraining
+    X = df.drop(['Recommended_Career'], axis=1, errors="ignore") if 'Recommended_Career' in df.columns else df
+    y = df['Recommended_Career'] if 'Recommended_Career' in df.columns else None
+
+    # Encode features
+    categorical_cols = ['Education', 'Interest', 'Favorite_Subject', 'Extracurriculars', 'Personality_Trait']
+    X = pd.get_dummies(X, columns=[col for col in categorical_cols if col in X.columns])
+
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+
+    le = LabelEncoder()
+    y_encoded = le.fit_transform(y)
+
+    joblib.dump(scaler, scaler_path)
+    joblib.dump(le, encoder_path)
+    joblib.dump(X.columns, column_path)
+
+    return X_scaled, y_encoded

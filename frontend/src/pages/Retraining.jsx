@@ -117,7 +117,7 @@ const Retraining = () => {
             </p>
           )}
           
-          {retrainingStats && (
+          {/* {retrainingStats && (
             <div className="mt-8 p-4 bg-gray-50 rounded border border-gray-200">
               <h2 className="font-bold text-lg mb-3">Retraining Results</h2>
               <div className="space-y-2">
@@ -139,7 +139,7 @@ const Retraining = () => {
                 </div>
               </div>
             </div>
-          )}
+          )} */}
         </>
       )}
     </div>

@@ -6,7 +6,7 @@ from pydantic import BaseModel
 import pandas as pd
 import numpy as np
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-from src.preprocessing import preprocess_data
+from src.preprocessing import preprocess_data, preprocess_data_for_retrain
 from src.model import CareerRecommendationModel
 from src.prediction import make_predictions
 import matplotlib.pyplot as plt
@@ -109,25 +109,15 @@ async def retrain():
     
     combined_df = pd.concat(dfs, ignore_index=True)
     
-    X_train_scaled, X_val_scaled, X_test_scaled, y_train_encoded, y_val_encoded, y_test_encoded, _ = preprocess_data(combined_df, is_train=True)
+    X_scaled, y_encoded = preprocess_data_for_retrain(combined_df)
     model = CareerRecommendationModel()
-    model.train(X_train_scaled, y_train_encoded)
+    model.train(X_scaled, y_encoded)
 
-    # Evaluate the model
-    y_val_pred = model.predict(X_val_scaled)
-    accuracy = accuracy_score(y_val_encoded, y_val_pred)
-    precision = precision_score(y_val_encoded, y_val_pred, average='weighted', zero_division=0)
-    recall = recall_score(y_val_encoded, y_val_pred, average='weighted', zero_division=0)
-    f1 = f1_score(y_val_encoded, y_val_pred, average='weighted', zero_division=0)
 
     model.save()
     
     return {
         "message": "Model retrained successfully",
-        "accuracy": round(accuracy, 2),
-        "precision": round(precision, 2),
-        "recall": round(recall, 2),
-        "f1": round(f1, 2)
     }
 
 @app.get("/visualizations/{plot_type}")
