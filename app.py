@@ -14,9 +14,22 @@ import os
 import shutil
 from pymongo import MongoClient
 import gridfs
+from fastapi.responses import JSONResponse
+from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+
+app.mount('/static', StaticFiles(directory='./data/static'), name='static')
+
+# cors middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 UPLOAD_FOLDER = './data/uploads'
 STATIC_FOLDER = './data/static'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
@@ -153,7 +166,10 @@ async def get_visualizations(plot_type: str):
     else:
         raise HTTPException(status_code=404, detail="Invalid plot type")
     
-    return FileResponse(plots[0], media_type="image/png", filename=os.path.basename(plots[0]))
+    return JSONResponse(content={
+    "count_plot": f"http://localhost:8000/static/{os.path.basename(plots[0])}",
+    "bar_plot": f"http://localhost:8000/static/{os.path.basename(plots[1])}"
+})
 
 if __name__ == "__main__":
     import uvicorn

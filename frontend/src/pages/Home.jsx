@@ -23,7 +23,7 @@ const Home = () => {
             <p className="text-custom-grey text-base md:text-lg mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed font-primary">
               Unlock your future with Pathway Finder –personalized career recommendations tailored to your interests, strengths and personality leveraging the power of machine learning.
             </p>
-            <Link to="/predict">
+            <Link to="/prediction">
               <button className="bg-primary hover:bg-primary/75 hover:cursor-pointer text-white py-3 px-8 rounded-md text-lg font-medium transition-colors duration-300 w-64 font-primary">
                 Start Predicting
               </button>

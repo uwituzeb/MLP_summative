@@ -8,7 +8,8 @@ import os
 def preprocess_data(df, is_train=True, scaler_path='./models/scaler.pkl', encoder_path='./models/label_encoder.pkl', column_path='./models/scaler.pkl.columns'):
 
     # Split features and target
-    X = df.drop(['Recommended_Career', 'Age', 'CandidateID'], axis=1, errors="ignore") if 'Recommended_Career' in df.columns else df
+    
+    X = df.drop(['Recommended_Career'], axis=1, errors="ignore") if 'Recommended_Career' in df.columns else df
     y = df['Recommended_Career'] if 'Recommended_Career' in df.columns else None
 
     # Encode target
