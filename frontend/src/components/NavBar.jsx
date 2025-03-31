@@ -10,7 +10,7 @@ const NavBar = () => {
   };
   return (
     <>
-      <nav className="flex items-center justify-between px-6 md:px-10 py-4 md:py-6 border-b border-gray-200">
+      <nav className="flex items-center justify-between px-6 md:px-10 py-6 border-b border-gray-200">
       <div className="text-2xl font-bold text-primary font-secondary ">
         <Link to="/">PathwayFinder</Link>
       </div>
