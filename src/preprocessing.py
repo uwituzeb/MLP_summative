@@ -17,6 +17,8 @@ def preprocess_data(df, is_train=True, scaler_path='./models/scaler.pkl', encode
     X = pd.get_dummies(X, columns=[col for col in categorical_cols if col in X.columns])
 
     if is_train:
+        le = LabelEncoder()
+        y_encoded = le.fit_transform(y)
         # Split data
         x_train, x_temp, y_train, y_temp = train_test_split(X, y, test_size=0.4, random_state=42)
         x_val, x_test, y_val, y_test = train_test_split(x_temp, y_temp, test_size=0.5, random_state=42)

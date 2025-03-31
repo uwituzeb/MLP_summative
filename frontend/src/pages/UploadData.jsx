@@ -12,8 +12,11 @@ const UploadData = () => {
 
   const handleFileChange = (e) => {
     if (e.target.files[0]) {
-      setFile(e.target.files[0]);
+      const selectedFile = e.target.files[0];
+      setFile(selectedFile);
       setMessage('');
+      setError(null);
+      setSuccess(false);
     }
   };
 
@@ -35,7 +38,7 @@ const UploadData = () => {
       const formData = new FormData();
       formData.append('file', file);
       
-      const response = await fetch('/api/upload', {
+      const response = await fetch('http://localhost:8000/upload', {
         method: 'POST',
         body: formData,
       });
@@ -63,7 +66,7 @@ const UploadData = () => {
           htmlFor="file-upload" 
           className="block w-full text-center bg-primary/20 text-primary py-3 px-4 rounded-t-lg font-medium text-sm cursor-pointer"
         >
-          Enter CSV file for prediction
+          Upload CSV file for prediction
         </label>
         <input
           id="file-upload"

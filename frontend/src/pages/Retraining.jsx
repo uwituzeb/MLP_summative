@@ -36,7 +36,7 @@ const Retraining = () => {
         });
       }, 1000);
 
-      const response = await fetch('/api/retrain', {
+      const response = await fetch('http://localhost:8000/retrain', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -5,6 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pandas as pd
 import numpy as np
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from src.preprocessing import preprocess_data
 from src.model import CareerRecommendationModel
 from src.prediction import make_predictions
@@ -16,6 +17,9 @@ from pymongo import MongoClient
 import gridfs
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
+from dotenv import load_dotenv
+from gridfs import GridFS
+from urllib.parse import quote_plus
 
 app = FastAPI()
 
@@ -30,15 +34,32 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+load_dotenv()
+
 UPLOAD_FOLDER = './data/uploads'
 STATIC_FOLDER = './data/static'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(STATIC_FOLDER, exist_ok=True)
 
 # mongodb
-client = MongoClient("mongodb://localhost:27017/")
-db = client['career_recommendation']
-fs = gridfs.GridFS(db)
+ATLAS_USER = os.getenv("ATLAS_USER")
+ATLAS_PASSWORD = os.getenv("ATLAS_PASSWORD")
+ATLAS_DB = os.getenv("ATLAS_DB")
+ATLAS_CLUSTER = os.getenv("ATLAS_CLUSTER")
+
+encoded_user = quote_plus(ATLAS_USER)
+encoded_password = quote_plus(ATLAS_PASSWORD)
+MONGODB_URI = f"mongodb+srv://{encoded_user}:{encoded_password}@{ATLAS_CLUSTER}.mongodb.net/{ATLAS_DB}?retryWrites=true&w=majority"
+
+# Connect to MongoDB Atlas
+try:
+    client = MongoClient(MONGODB_URI)
+    db = client[ATLAS_DB]
+    fs = GridFS(db)
+    print("Connected to MongoDB Atlas successfully!")
+except Exception as e:
+    print(f"Failed to connect to MongoDB Atlas: {str(e)}")
+    raise
 
 
 class PredictionInput(BaseModel):
@@ -88,12 +109,26 @@ async def retrain():
     
     combined_df = pd.concat(dfs, ignore_index=True)
     
-    X_train, _, _, y_train, _, _, _ = preprocess_data(combined_df)
+    X_train_scaled, X_val_scaled, X_test_scaled, y_train_encoded, y_val_encoded, y_test_encoded, _ = preprocess_data(combined_df, is_train=True)
     model = CareerRecommendationModel()
-    model.train(X_train, y_train)
+    model.train(X_train_scaled, y_train_encoded)
+
+    # Evaluate the model
+    y_val_pred = model.predict(X_val_scaled)
+    accuracy = accuracy_score(y_val_encoded, y_val_pred)
+    precision = precision_score(y_val_encoded, y_val_pred, average='weighted', zero_division=0)
+    recall = recall_score(y_val_encoded, y_val_pred, average='weighted', zero_division=0)
+    f1 = f1_score(y_val_encoded, y_val_pred, average='weighted', zero_division=0)
+
     model.save()
     
-    return {"message": "Model retrained successfully"}
+    return {
+        "message": "Model retrained successfully",
+        "accuracy": round(accuracy, 2),
+        "precision": round(precision, 2),
+        "recall": round(recall, 2),
+        "f1": round(f1, 2)
+    }
 
 @app.get("/visualizations/{plot_type}")
 async def get_visualizations(plot_type: str):
