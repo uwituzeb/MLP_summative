@@ -1,11 +1,14 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const UploadData = () => {
+  const navigate = useNavigate();
   const [file, setFile] = useState(null);
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
   const [message, setMessage] = useState('');
   const [isUploading, setIsUploading] = useState(false);
+  const [uploadedFileName, setUploadedFileName] = useState('');
 
   const handleFileChange = (e) => {
     if (e.target.files[0]) {
@@ -40,6 +43,9 @@ const UploadData = () => {
 
       if (response.ok) {
       setMessage('File uploaded successfully!');
+      setSuccess(true);
+      setUploadedFileName(file.name);
+      sessionStorage.setItem('uploadedFile', file.name);
       } else {
         setMessage('Error uploading file. Please try again.');
       }
@@ -86,10 +92,24 @@ const UploadData = () => {
         </p>
       )}
       
-      {file && (
+      {file && !success && (
         <p className="mt-4 text-sm text-gray-600">
           Selected file: {file.name}
         </p>
+      )}
+
+      {success && (
+        <div className="mt-6 text-primary">
+          <p className="mb-2 text-sm text-gray-600">
+            Uploaded file: {uploadedFileName}
+          </p>
+          <button
+            onClick={navigate('/retrain')}
+            className="w-full bg-green-600 text-white hover:bg-green-700 py-3 px-8 rounded-md font-medium transition duration-200"
+          >
+            Continue to Model Retraining
+          </button>
+        </div>
       )}
     </div>
   );
