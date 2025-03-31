@@ -28,7 +28,7 @@ const Prediction = () => {
     setError(null);
 
     try {
-      const response = await fetch('/api/predict', {
+      const response = await fetch('http://localhost:8000/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -157,9 +157,7 @@ const Prediction = () => {
       {result && (
         <div className="mt-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
           <h2 className="font-bold text-lg mb-2">Prediction Results:</h2>
-          <pre className="whitespace-pre-wrap">
-            {JSON.stringify(result, null, 2)}
-          </pre>
+          <p>Recommended Career: {result.Recommended_Career}</p>
         </div>
       )}
     </div>
