@@ -15,7 +15,7 @@ const NavBar = () => {
         <Link to="/">PathwayFinder</Link>
       </div>
       
-      <ul className="flex space-x-8">
+      <ul className="flex space-x-8 text-xl">
         <li>
           <Link 
             to="/" 
