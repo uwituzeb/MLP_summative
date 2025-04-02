@@ -8,6 +8,7 @@ const Visualizations = () => {
   const [error, setError] = useState(null);
   const [countPlotUrl, setCountPlotUrl] = useState(null);
   const [barPlotUrl, setBarPlotUrl] = useState(null);
+  const BACKEND_URL = process.env.REACT_APP_BASE_URL;
 
   const availableParameters = [
     { id: "education", label: "Education Level" },
@@ -37,7 +38,7 @@ const Visualizations = () => {
     setBarPlotUrl(null);
 
     try {
-      const response = await fetch(`http://localhost:8000/visualizations/${param}`, {
+      const response = await fetch(`${BACKEND_URL}/visualizations/${param}`, {
         method: 'GET',
         headers: {
           'Accept': 'application/json',

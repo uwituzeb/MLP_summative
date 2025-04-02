@@ -46,6 +46,7 @@ ATLAS_USER = os.getenv("ATLAS_USER")
 ATLAS_PASSWORD = os.getenv("ATLAS_PASSWORD")
 ATLAS_DB = os.getenv("ATLAS_DB")
 ATLAS_CLUSTER = os.getenv("ATLAS_CLUSTER")
+BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 encoded_user = quote_plus(ATLAS_USER)
 encoded_password = quote_plus(ATLAS_PASSWORD)
@@ -192,8 +193,8 @@ async def get_visualizations(plot_type: str):
         raise HTTPException(status_code=404, detail="Invalid plot type")
     
     return JSONResponse(content={
-    "count_plot": f"http://localhost:8000/static/{os.path.basename(plots[0])}",
-    "bar_plot": f"http://localhost:8000/static/{os.path.basename(plots[1])}"
+    "count_plot": f"{BACKEND_URL}/static/{os.path.basename(plots[0])}",
+    "bar_plot": f"{BACKEND_URL}/static/{os.path.basename(plots[1])}"
 })
 
 if __name__ == "__main__":

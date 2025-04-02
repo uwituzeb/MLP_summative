@@ -8,6 +8,7 @@ const Retraining = () => {
   const [isRetraining, setIsRetraining] = useState(false);
   const [progress, setProgress] = useState(0);
   const [retrainingStats, setRetrainingStats] = useState(null);
+  const BACKEND_URL = process.env.REACT_APP_BASE_URL
 
   useEffect(() => {
     const uploadedFile = sessionStorage.getItem('uploadedFile');
@@ -36,7 +37,7 @@ const Retraining = () => {
         });
       }, 1000);
 
-      const response = await fetch('http://localhost:8000/retrain', {
+      const response = await fetch(`${BACKEND_URL}/retrain`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

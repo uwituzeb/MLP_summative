@@ -9,6 +9,7 @@ const UploadData = () => {
   const [message, setMessage] = useState('');
   const [isUploading, setIsUploading] = useState(false);
   const [uploadedFileName, setUploadedFileName] = useState('');
+  const BACKEND_URL = process.env.REACT_APP_BASE_URL
 
   const handleFileChange = (e) => {
     if (e.target.files[0]) {
@@ -38,7 +39,7 @@ const UploadData = () => {
       const formData = new FormData();
       formData.append('file', file);
       
-      const response = await fetch('http://localhost:8000/upload', {
+      const response = await fetch(`${BACKEND_URL}/upload`, {
         method: 'POST',
         body: formData,
       });

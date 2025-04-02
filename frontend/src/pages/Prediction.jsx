@@ -13,6 +13,7 @@ const Prediction = () => {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const BACKEND_URL = process.env.REACT_APP_BASE_URL
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -28,7 +29,7 @@ const Prediction = () => {
     setError(null);
 
     try {
-      const response = await fetch('http://localhost:8000/predict', {
+      const response = await fetch(`${BACKEND_URL}/predict`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
