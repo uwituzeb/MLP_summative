@@ -17,10 +17,10 @@ const Home = () => {
           </div>
           
           <div className="w-full lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-gray-900 mb-6 font-primary">
+            <h1 className="text-3xl font-bold tracking-tight text-gray-900 mb-6 font-primary">
               DISCOVER YOUR PASSION
             </h1>
-            <p className="text-custom-grey text-base md:text-lg mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed font-primary">
+            <p className="text-custom-grey text-lg mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed font-primary">
               Unlock your future with Pathway Finder –personalized career recommendations tailored to your interests, strengths and personality leveraging the power of machine learning.
             </p>
             <Link to="/prediction">
