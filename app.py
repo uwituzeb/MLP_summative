@@ -2,7 +2,7 @@ from typing import Optional
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 import pandas as pd
 import numpy as np
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
@@ -84,13 +84,13 @@ except Exception as e:
 
 
 class PredictionInput(BaseModel):
-    Education: str
-    Interest: str
-    Favorite_Subject: str
-    Extracurriculars: str
-    Personality_Trait: str
-    Age: Optional[int] = None
-    CandidateID: Optional[str] = None
+    Education: str = Field(..., example="O-Level")
+    Interest: str = Field(..., example="Business")
+    Favorite_Subject: str = Field(..., example="Mathematics")
+    Extracurriculars: str = Field(..., example="Art Club")
+    Personality_Trait: str = Field(..., example="Leader")
+    Age: Optional[int] = Field(None, example=16)
+    CandidateID: Optional[str] = Field(None, example="123456")
 
     class Config:
         schema_extra = {
@@ -100,6 +100,8 @@ class PredictionInput(BaseModel):
                 "Favorite_Subject": "Mathematics",
                 "Extracurriculars": "Art Club",
                 "Personality_Trait": "Leader",
+                "Age": 16,
+                "CandidateID": "123456"
             }
         }
 
@@ -178,7 +180,7 @@ async def retrain():
 @app.get("/visualizations/{plot_type}",
          tags=["visualizations"],
          summary="Generate data visualizations",
-         description="Generate and return visualizations based on the specified plot type.")
+         description="Generate and return visualizations based on the specified plot type. Possible options are extracurriculars, interest, and personality.")
 async def get_visualizations(plot_type: str):
     """
     Generate data visualizations based on the specified plot type.
