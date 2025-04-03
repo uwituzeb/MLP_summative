@@ -28,7 +28,7 @@ For more information about the project and the model creation refer to [summativ
 
 ## Video demo
 
-[Video Link](https://drive.google.com/file/d/1aVQZNTgJOfZIciAjcl-CAeBrcnssIIag/view?usp=sharing)
+[Video Link](https://www.youtube.com/watch?v=bJiUOl9Lq_g)
 
 ## Swagger documentation
 
