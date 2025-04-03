@@ -5,6 +5,7 @@
 Pathway Finder is a machine learning-based application designed to predict career recommendations for high school students in Rwanda based on their interests, grades, extracurricular activities, personality traits, and facorite subjects. 
 
 This project demonstrates the full lifecycle of an ML pipeline from model training to deployment on a cloud platform with scalability, monitoring and retraining capabilities.
+For more information about the project and the model creation refer to [summative intro to ml](https://github.com/uwituzeb/summative-intro-to-ml)
 
 ## Features
 
@@ -15,7 +16,6 @@ This project demonstrates the full lifecycle of an ML pipeline from model traini
 3. **Retraing model**: Users can retrain the model using the new dataset from data upload
 
 4. **Visualizations**: Interactive visualizations interprete key features to provide insights into career recommendation trends.
-
 
 
 ## Technologies used
@@ -50,17 +50,27 @@ cd MLP_summative
 
 ```
 
-2. Install dependencies
+2. Setup virtual environment
+
+3. Install dependencies
 
 ```
 pip install -r requirements.txt
-cd frontend && npm install
 
 ```
 
-3. Run locally with docker
+4. Run locally with docker
 
 `docker-compose up --build`
+
+5. For the frontend, navigate to frontend directory and install packages
+
+```
+cd frontend
+npm install 
+```
+
+6. Run  `npm start`
 
 ## API Endpoints
 
