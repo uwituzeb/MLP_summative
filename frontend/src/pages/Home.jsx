@@ -8,7 +8,7 @@ const Home = () => {
     <section id="home" className="min-h-[90vh] flex items-center justify-center px-4 py-12 bg-white">
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-          <div className="w-full lg:w-1/2">
+          <div className="w-1/2">
             <img 
               src={heroImage}
               className="w-full max-w-lg mx-auto" 
@@ -16,11 +16,11 @@ const Home = () => {
             />
           </div>
           
-          <div className="w-full lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900 mb-6 font-primary">
+          <div className="w-1/2 text-center lg:text-left">
+            <h1 className="text-[24px] font-bold tracking-tight text-gray-900 mb-6 font-primary">
               DISCOVER YOUR PASSION
             </h1>
-            <p className="text-custom-grey text-lg mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed font-primary">
+            <p className="text-custom-grey text-[16px] mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed font-primary">
               Unlock your future with Pathway Finder –personalized career recommendations tailored to your interests, strengths and personality leveraging the power of machine learning.
             </p>
             <Link to="/prediction">
