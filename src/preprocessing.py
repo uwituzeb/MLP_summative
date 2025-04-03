@@ -63,7 +63,8 @@ def preprocess_data(df, is_train=True, scaler_path='./models/scaler.pkl', encode
 
         X_scaled = scaler.transform(X_aligned)
         return X_scaled
-    
+
+ # For retraining, I used the full dataset to train the model again as suggested in class.  
 def preprocess_data_for_retrain(df, scaler_path='./models/scaler.pkl', encoder_path='./models/label_encoder.pkl', column_path='./models/scaler.pkl.columns'):
     # Preprocess data for retraining
     X = df.drop(['Recommended_Career'], axis=1, errors="ignore") if 'Recommended_Career' in df.columns else df
