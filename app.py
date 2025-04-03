@@ -21,7 +21,26 @@ from dotenv import load_dotenv
 from gridfs import GridFS
 from urllib.parse import quote_plus
 
-app = FastAPI()
+app = FastAPI(
+    title="Career Recommendation API",
+    description="API for predicting career recommendations based on student input.",
+    version="1.0.0",
+    docs_url="/",
+    openapi_tags=[
+       {
+            "name": "predictions",
+            "description": "Career prediction operations"
+        },
+        {
+            "name": "data",
+            "description": "Data upload and model operations"
+        },
+        {
+            "name": "visualizations",
+            "description": "Data visualization endpoints"
+        }
+    ]
+)
 
 app.mount('/static', StaticFiles(directory='./data/static'), name='static')
 
@@ -73,16 +92,44 @@ class PredictionInput(BaseModel):
     Age: Optional[int] = None
     CandidateID: Optional[str] = None
 
+    class Config:
+        schema_extra = {
+            "example": {
+                "Education": "O-Level",
+                "Interest": "Business",
+                "Favorite_Subject": "Mathematics",
+                "Extracurriculars": "Art Club",
+                "Personality_Trait": "Leader",
+            }
+        }
 
-@app.post("/predict")
+
+@app.post("/predict",
+          tags=["predictions"],
+          summary="Predict career recommendation",
+          description="Takes student profile information and returns recommended career using the trained ML model.")
 async def predict(data: PredictionInput):
+    """
+    Predict a career recommendation based on student profile data.
+    
+    This endpoint processes student information such as education, interests, and personality traits
+    to generate a suitable career recommendation using a machine learning model.
+    """
     df = pd.DataFrame([data.model_dump()])
     X_processed = preprocess_data(df, is_train=False)
     predictions = make_predictions(X_processed)
     return {'Recommended_Career': predictions[0]}
 
-@app.post("/upload")
+@app.post("/upload",
+          tags=["data"],
+          summary="Upload a dataset CSV file",
+          description="Upload CSV files to retrain the model.")
 async def upload_file(file: UploadFile = File(...)):
+    """
+    Upload a CSV file to the server for later model retraining.
+    
+    The file will be stored both on the server filesystem and in MongoDB GridFS.
+    """
     print(f"UPLOAD_FOLDER absolute path: {os.path.abspath(UPLOAD_FOLDER)}")
     file_path = os.path.join(UPLOAD_FOLDER, file.filename)
     with open(file_path, "wb") as buffer:
@@ -93,8 +140,14 @@ async def upload_file(file: UploadFile = File(...)):
     print(f"File {file.filename} uploaded to MongoDB with ID: {file_id}")
     return {"message": f"File {file.filename} uploaded successfully"}
 
-@app.post("/retrain")
+@app.post("/retrain",
+          tags=["data"],
+          summary="Retrain the model",
+          description="Retrain the model using the uploaded dataset.")
 async def retrain():
+    """
+    Retrain the career recommendation model using uploaded dataset.
+    """
     files = db.fs.files.find()
     dfs = []
     for file_doc in files:
@@ -122,18 +175,26 @@ async def retrain():
         "message": "Model retrained successfully",
     }
 
-@app.get("/visualizations/{plot_type}")
+@app.get("/visualizations/{plot_type}",
+         tags=["visualizations"],
+         summary="Generate data visualizations",
+         description="Generate and return visualizations based on the specified plot type.")
 async def get_visualizations(plot_type: str):
+    """
+    Generate data visualizations based on the specified plot type.
+
+    Available plot types: extracurriculars, interest, personality
+    """
     df = pd.read_csv('data/train/high_school_career_recommendation_dataset.csv')
 
     if not os.path.exists(STATIC_FOLDER):
         os.makedirs(STATIC_FOLDER, exist_ok=True)
     
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(12, 8))
     plots = []
     if plot_type == "extracurriculars":
         # First plot: Count plot
-        plt.figure(figsize=(8, 6))
+        plt.figure(figsize=(12, 8))
         sns.countplot(data=df, x='Extracurriculars', hue='Recommended_Career')
         plt.xticks(rotation=45)
         plt.title('Extracurriculars Distribution')
@@ -143,18 +204,19 @@ async def get_visualizations(plot_type: str):
         plots.append(plot_path1)
 
         # Second plot: Stacked bar plot with career correlation
-        plt.figure(figsize=(8, 6))
+        plt.figure(figsize=(12, 8))
         extracurriculars_career = df.groupby(['Extracurriculars', 'Recommended_Career']).size().unstack().fillna(0)
         extracurriculars_career.plot(kind='bar', stacked=True)
         plt.title('Extracurriculars vs Career - Stacked Bar Plot')
-        plt.xticks(rotation=45)
+        plt.xticks(rotation=45, ha="right")
+        plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
         plot_path2 = f"{STATIC_FOLDER}/{plot_type}_bar.png"
-        plt.savefig(plot_path2)
+        plt.savefig(plot_path2, bbox_inches='tight')
         plt.close()
         plots.append(plot_path2)
 
     elif plot_type == "interest":
-        plt.figure(figsize=(8, 6))
+        plt.figure(figsize=(12, 8))
         sns.countplot(data=df, x='Interest', hue='Recommended_Career')
         plt.xticks(rotation=45)
         plt.title('Interest vs Career')
@@ -163,18 +225,19 @@ async def get_visualizations(plot_type: str):
         plt.close()
         plots.append(plot_path1)
 
-        plt.figure(figsize=(8, 6))
+        plt.figure(figsize=(12, 8))
         interest_career = df.groupby(['Interest', 'Recommended_Career']).size().unstack().fillna(0)
         interest_career.plot(kind='bar', stacked=True)
         plt.title('Interest vs Career - Stacked Bar Plot')
-        plt.xticks(rotation=45)
+        plt.xticks(rotation=45, ha="right")
+        plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
         plot_path2 = f"{STATIC_FOLDER}/{plot_type}_bar.png"
-        plt.savefig(plot_path2)
+        plt.savefig(plot_path2, bbox_inches='tight')
         plt.close()
         plots.append(plot_path2)
 
     elif plot_type == "personality":
-        plt.figure(figsize=(8, 6))
+        plt.figure(figsize=(12, 8))
         sns.countplot(data=df, x='Personality_Trait')
         plt.xticks(rotation=45)
         plt.title('Personality Distribution')
@@ -183,13 +246,14 @@ async def get_visualizations(plot_type: str):
         plt.close()
         plots.append(plot_path1)
 
-        plt.figure(figsize=(8, 6))
+        plt.figure(figsize=(12, 8))
         personality_career = df.groupby(['Personality_Trait', 'Recommended_Career']).size().unstack().fillna(0)
         personality_career.plot(kind='bar', stacked=True)
         plt.title('Personality vs Career - Stacked Bar Plot')
         plt.xticks(rotation=45)
+        plt.legend(loc='upper left', bbox_to_anchor=(1, 1))
         plot_path2 = f"{STATIC_FOLDER}/{plot_type}_bar.png"
-        plt.savefig(plot_path2)
+        plt.savefig(plot_path2, bbox_inches='tight')
         plt.close()
         plots.append(plot_path2)
 
