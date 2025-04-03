@@ -12,7 +12,9 @@ class CareerRecommendationModel:
                 multi_class='multinomial',
                 max_iter=1000,
                 random_state=42,
-                solver='lbfgs'
+                solver='lbfgs',
+                C=1.0,
+                penalty='l2',
         )
 
     def train(self, X_train, y_train):
@@ -23,7 +25,12 @@ class CareerRecommendationModel:
         y_pred = self.model.predict(X)
         accuracy = accuracy_score(y_encoded, y_pred)
         report = classification_report(y_encoded, y_pred)
-        return accuracy, report
+        return {
+            "accuracy": accuracy,
+            "f1_score": report['weighted avg']['f1-score'],
+            "precision": report['weighted avg']['precision'],
+            "recall": report['weighted avg']['recall']
+        }
     
     def predict(self, X):
         return self.model.predict(X)

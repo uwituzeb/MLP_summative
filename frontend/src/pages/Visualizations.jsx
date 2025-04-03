@@ -11,11 +11,9 @@ const Visualizations = () => {
   const BACKEND_URL = process.env.REACT_APP_BASE_URL;
 
   const availableParameters = [
-    { id: "education", label: "Education Level" },
     { id: "interest", label: "Interest" },
-    { id: "favorite_subject", label: "Favorite Subject" },
     { id: "extracurriculars", label: "Extracurricular Activities" },
-    { id: "personality_trait", label: "Personality Trait" }
+    { id: "personality", label: "Personality Trait" }
   ];
 
   useEffect(() => {
@@ -65,7 +63,7 @@ const Visualizations = () => {
             <button
               key={item.id}
               onClick={() => handleParameterSelect(item.id)}
-              className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+              className={`px-4 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer ${
                 selectedParameter === item.id
                   ? 'bg-primary text-white'
                   : 'bg-gray-200 hover:bg-gray-300 text-gray-800'

@@ -127,12 +127,12 @@ async def get_visualizations(plot_type: str):
     
     plt.figure(figsize=(8, 6))
     plots = []
-    if plot_type == "education":
+    if plot_type == "extracurriculars":
         # First plot: Count plot
         plt.figure(figsize=(8, 6))
-        sns.countplot(data=df, x='Education')
+        sns.countplot(data=df, x='Extracurriculars', hue='Recommended_Career')
         plt.xticks(rotation=45)
-        plt.title('Education Distribution')
+        plt.title('Extracurriculars Distribution')
         plot_path1 = f"{STATIC_FOLDER}/{plot_type}_count.png"
         plt.savefig(plot_path1)
         plt.close()
@@ -140,9 +140,9 @@ async def get_visualizations(plot_type: str):
 
         # Second plot: Stacked bar plot with career correlation
         plt.figure(figsize=(8, 6))
-        education_career = df.groupby(['Education', 'Recommended_Career']).size().unstack().fillna(0)
-        education_career.plot(kind='bar', stacked=True)
-        plt.title('Education vs Career - Stacked Bar Plot')
+        extracurriculars_career = df.groupby(['Extracurriculars', 'Recommended_Career']).size().unstack().fillna(0)
+        extracurriculars_career.plot(kind='bar', stacked=True)
+        plt.title('Extracurriculars vs Career - Stacked Bar Plot')
         plt.xticks(rotation=45)
         plot_path2 = f"{STATIC_FOLDER}/{plot_type}_bar.png"
         plt.savefig(plot_path2)

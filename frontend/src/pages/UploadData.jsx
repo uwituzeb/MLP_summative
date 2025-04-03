@@ -33,7 +33,6 @@ const UploadData = () => {
     }
 
     setIsUploading(true);
-    setMessage('Uploading...');
 
     try {
       const formData = new FormData();
