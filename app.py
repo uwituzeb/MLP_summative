@@ -36,8 +36,9 @@ app.add_middleware(
 
 load_dotenv()
 
-UPLOAD_FOLDER = './data/uploads'
-STATIC_FOLDER = './data/static'
+# Mount static files
+STATIC_FOLDER = os.path.abspath("./data/static")
+UPLOAD_FOLDER = os.path.abspath("./data/uploads")
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(STATIC_FOLDER, exist_ok=True)
 
@@ -46,7 +47,7 @@ ATLAS_USER = os.getenv("ATLAS_USER")
 ATLAS_PASSWORD = os.getenv("ATLAS_PASSWORD")
 ATLAS_DB = os.getenv("ATLAS_DB")
 ATLAS_CLUSTER = os.getenv("ATLAS_CLUSTER")
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://mlp-summative.onrender.com")
 
 encoded_user = quote_plus(ATLAS_USER)
 encoded_password = quote_plus(ATLAS_PASSWORD)
@@ -124,6 +125,9 @@ async def retrain():
 @app.get("/visualizations/{plot_type}")
 async def get_visualizations(plot_type: str):
     df = pd.read_csv('data/train/high_school_career_recommendation_dataset.csv')
+
+    if not os.path.exists(STATIC_FOLDER):
+        os.makedirs(STATIC_FOLDER, exist_ok=True)
     
     plt.figure(figsize=(8, 6))
     plots = []
